@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { compose } from 'recompose';
 import TimeList from './TimeList'
 import TwitchPlayer from './TwitchPlayer'
+import timestamps_1 from '../data/timestamps_1';
 
 
 class Player extends Component {
@@ -9,7 +9,7 @@ class Player extends Component {
     super(props);
 
     this.state = {
-      video: "",
+      video: "311132964",
       timestamp: "",
     }
 
@@ -20,12 +20,16 @@ class Player extends Component {
     this.setState({ timestamp });
   }
 
+  handleChangeVideo(video) {
+    this.setState({ video })
+  }
+
   render() {
-    const { timestamp } = this.state;
+    const { timestamp, video } = this.state;
 
     return (
       <div>
-        <TwitchPlayer timestamp={timestamp} width={1280} height={720} video="311132964"/>
+        <TwitchPlayer timestamp={timestamp} width={1280} height={720} video={video} />
         <TimeList handleChangeTime={this.handleChangeTime} />
       </div>
     )
