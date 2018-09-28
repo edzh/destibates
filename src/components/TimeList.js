@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import timestamps_0 from '../data/timestamps_0';
+import videoIds from '../data/videoIds';
 
 function hmsToSecondsOnly(str) {
   var p = str.split(':'),
@@ -20,7 +20,7 @@ class TimeList extends Component {
   }
 
   render() {
-    const { handleChangeTime } = this.props;
+    const { handleChangeTimestamp, videoId } = this.props;
 
     return(
       <div className="container font-sans mx-auto">
@@ -31,11 +31,11 @@ class TimeList extends Component {
             <th>Category</th>
             <th>Topic</th>
           </tr>
-          { Object.keys(timestamps_0.timestamps).map((timestamp) =>
-            <tr className="hover:text-white cursor-pointer" onClick={() => handleChangeTime(hmsToSecondsOnly(timestamp))}>
+          { Object.keys(videoIds[videoId].timestamps).map((timestamp) =>
+            <tr key={timestamp} className="hover:text-white cursor-pointer" onClick={() => handleChangeTimestamp(hmsToSecondsOnly(timestamp))}>
               <td>{timestamp}</td>
-              <td>{timestamps_0.timestamps[timestamp].category}</td>
-              <td>{timestamps_0.timestamps[timestamp].topic}</td>
+              <td>{videoIds[videoId].timestamps[timestamp].category}</td>
+              <td>{videoIds[videoId].timestamps[timestamp].topic}</td>
             </tr>
           )}
         </tbody>

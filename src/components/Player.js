@@ -1,36 +1,29 @@
 import React, { Component } from 'react';
 import TimeList from './TimeList'
 import TwitchPlayer from './TwitchPlayer'
-import timestamps_1 from '../data/timestamps_1';
-
 
 class Player extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      video: "311132964",
-      timestamp: "",
+      videoId: this.props.match.params.videoId,
+      timestamp: "0",
     }
 
-    this.handleChangeTime = this.handleChangeTime.bind(this);
+    this.handleChangeTimestamp = this.handleChangeTimestamp.bind(this);
   }
 
-  handleChangeTime(timestamp) {
+  handleChangeTimestamp(timestamp) {
     this.setState({ timestamp });
   }
 
-  handleChangeVideo(video) {
-    this.setState({ video })
-  }
-
   render() {
-    const { timestamp, video } = this.state;
-
+    const { timestamp } = this.state;
     return (
       <div>
-        <TwitchPlayer timestamp={timestamp} width={1280} height={720} video={video} />
-        <TimeList handleChangeTime={this.handleChangeTime} />
+        <TwitchPlayer timestamp={timestamp} width={1280} height={720} videoId={this.props.match.params.videoId} />
+        <TimeList videoId={this.props.match.params.videoId} handleChangeTimestamp={this.handleChangeTimestamp} />
       </div>
     )
   }
