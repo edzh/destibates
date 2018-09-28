@@ -21,9 +21,13 @@ class Player extends Component {
   render() {
     const { timestamp } = this.state;
     return (
-      <div>
-        <TwitchPlayer timestamp={timestamp} width={1280} height={720} videoId={this.props.match.params.videoId} />
-        <TimeList videoId={this.props.match.params.videoId} handleChangeTimestamp={this.handleChangeTimestamp} />
+      <div className="flex">
+        <div className="w-3/4 ml-4">
+          <TwitchPlayer timestamp={timestamp} width={"100%"} height={"720"} videoId={this.props.match.params.videoId} />
+        </div>
+        <div className="w-1/4">
+          <TimeList videoId={this.props.match.params.videoId} handleChangeTimestamp={this.handleChangeTimestamp} />
+        </div>
       </div>
     )
   }

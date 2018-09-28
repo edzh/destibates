@@ -1,6 +1,6 @@
 const videoIds = {
   v311132964: {
-    date: "09172018",
+    date: "09/17/2018",
     timestamps: {
       "0:00:00" : {
         "topic": "Talking about Police shooting vs obesity inconsistency post on the subreddit",
@@ -65,7 +65,7 @@ const videoIds = {
     }
   },
   v311225842: {
-    date: "09172018",
+    date: "09/17/2018",
     timestamps: {
       "0:00:00": {
         topic: "Chat about games/livestreamfails and twitch followers with Devin",
@@ -90,7 +90,7 @@ const videoIds = {
     }
   },
   v311298013: {
-    date: "09172018",
+    date: "09/17/2018",
     timestamps: {
       "0:00:00": {
         topic: "Watching MrMouton playing COD:BO4 Blackout",
@@ -135,7 +135,7 @@ const videoIds = {
     }
   },
   v311549184: {
-    date: "09182018",
+    date: "09/18/2018",
     timestamps: {
       "0:00:00": {
         topic: "Livestreamfails and other random memes from chat",
@@ -187,8 +187,8 @@ const videoIds = {
       },
     }
   },
-  v311969870: {
-    date: "09182018",
+  v311970939: {
+    date: "09/18/2018",
     timestamps: {
       "0:00:00": {
         topic: "Destiny, Devin and Erin at Denny's. Devin talking about an employee at CLG",

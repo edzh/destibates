@@ -10,10 +10,10 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div>
+      <div className="App bg-black font-sans">
         <VideoNav />
-        <div className="App bg-black">
-          <Route exact path={'/'} render={() => <div>Hello world</div>} />
+        <div>
+          <Route exact path={'/'} render={() => <div></div>} />
           <Route path={'/v/:videoId'} component={Player} />
         </div>
       </div>
