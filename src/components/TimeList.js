@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import timestamps_1 from '../data/timestamps_1';
+import timestamps_0 from '../data/timestamps_0';
 
 function hmsToSecondsOnly(str) {
   var p = str.split(':'),
@@ -22,22 +22,20 @@ class TimeList extends Component {
   render() {
     const { handleChangeTime } = this.props;
 
-    Object.keys(timestamps_1.timestamps).forEach(key => console.log(timestamps_1.timestamps[key]))
-
     return(
-      <div>
-        <table>
+      <div className="container font-sans mx-auto">
+        <table className="text-left text-grey">
         <tbody>
           <tr>
-            <th classList="red">Timestamp</th>
-            <th classList="red">Category</th>
-            <th classList="red">Topic</th>
+            <th>Timestamp</th>
+            <th>Category</th>
+            <th>Topic</th>
           </tr>
-          { Object.keys(timestamps_1.timestamps).map((timestamp) =>
-            <tr>
-              <td classList="red-darkest" onClick={() => handleChangeTime(hmsToSecondsOnly(timestamp))}>{timestamp}</td>
-              <td>{timestamps_1.timestamps[timestamp].category}</td>
-              <td>{timestamps_1.timestamps[timestamp].topic}</td>
+          { Object.keys(timestamps_0.timestamps).map((timestamp) =>
+            <tr className="hover:text-white cursor-pointer" onClick={() => handleChangeTime(hmsToSecondsOnly(timestamp))}>
+              <td>{timestamp}</td>
+              <td>{timestamps_0.timestamps[timestamp].category}</td>
+              <td>{timestamps_0.timestamps[timestamp].topic}</td>
             </tr>
           )}
         </tbody>
