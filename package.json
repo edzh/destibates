@@ -2,7 +2,7 @@
   "name": "destibates",
   "version": "0.1.0",
   "private": true,
-  "homepage": "edzh.github.io/destibates"
+  "homepage": "edzh.github.io/destibates",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "hapi": "^17.5.5",
@@ -18,7 +18,9 @@
     "prebuild": "tailwind build ./src/index.tailwind.css -c ./tailwind.js -o ./src/index.css",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "tailwindcss": "^0.6.6"
