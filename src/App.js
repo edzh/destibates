@@ -3,18 +3,18 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import videoIds from './data/videoIds';
 
 import Player from './components/Player';
-import VideoNav from './components/VideoNav';
+import Navbar from './components/Navbar';
 
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div className="App bg-black font-sans">
-        <VideoNav />
+      <div className="App font-sans">
+        <Navbar />
         <div>
           <Route exact path={'/'} render={() => <div></div>} />
-          <Route path={'/v/:videoId'} component={Player} />
+          <Route path={'/v/:videoId/:timestamp'} component={Player} />
         </div>
       </div>
       </BrowserRouter>

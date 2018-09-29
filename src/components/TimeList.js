@@ -21,11 +21,13 @@ class TimeList extends Component {
   }
 
   render() {
-    const { handleChangeTimestamp, videoId } = this.props;
+    const { handleChangeTimestamp, videoId, timestamp } = this.props;
 
     return(
-      <div className="overflow-auto px-4 mx-auto" style={{height: "720px"}}>
-        <Timestamp handleChangeTimestamp={handleChangeTimestamp} videoId={videoId} />
+      <div className="overflow-auto mx-2" style={{height: '720px'}}>
+        {videoIds[videoId].timestamps && Object.keys(videoIds[videoId].timestamps).map((timestamp) =>
+          <Timestamp handleChangeTimestamp={handleChangeTimestamp} timestamp={timestamp} videoId={videoId} />
+        )}
       </div>
     )
   }

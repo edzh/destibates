@@ -1,5 +1,5 @@
 const videoIds = {
-  v311132964: {
+  311132964: {
     date: "09/17/2018",
     timestamps: {
       "0:00:00" : {
@@ -64,7 +64,7 @@ const videoIds = {
       },
     }
   },
-  v311225842: {
+  311225842: {
     date: "09/17/2018",
     timestamps: {
       "0:00:00": {
@@ -89,7 +89,7 @@ const videoIds = {
       }
     }
   },
-  v311298013: {
+  311298013: {
     date: "09/17/2018",
     timestamps: {
       "0:00:00": {
@@ -134,7 +134,7 @@ const videoIds = {
       }
     }
   },
-  v311549184: {
+  311549184: {
     date: "09/18/2018",
     timestamps: {
       "0:00:00": {
@@ -187,7 +187,7 @@ const videoIds = {
       },
     }
   },
-  v311970939: {
+  311970939: {
     date: "09/19/2018",
     timestamps: {
       "0:00:00": {
@@ -220,8 +220,8 @@ const videoIds = {
       },
     }
   },
-  v312218518: {
-    date: "09/20/2019",
+  312218518: {
+    date: "09/20/2018",
     timestamps: {
       "0:00:00": {
         "topic": "Talking to Devin about genetics and enviroment/social credit score/Chinese government while playing Starcraft 2",
@@ -233,8 +233,8 @@ const videoIds = {
       }
     }
   },
-  v312233789: {
-    date: "09/20/2019",
+  312233789: {
+    date: "09/20/2018",
     timestamps: {
       "0:00:00": {
         "topic": "Fixing audio and camera issues after powercut",
@@ -310,17 +310,17 @@ const videoIds = {
       }
     }
   },
-  v312490776: {
-    date: "09/20/2019"
+  312490776: {
+    date: "09/20/2018"
   },
-  v312514999: {
-    date: "09/20/2019"
+  312514999: {
+    date: "09/20/2018"
   },
-  v312520850: {
-    date: "09/20/2019"
+  312520850: {
+    date: "09/20/2018"
   },
-  v312586699: {
-    date: "09/20/2019",
+  312586699: {
+    date: "09/20/2018",
     timestamps: {
       "0:00:00": {
         topic: "Discussion with a vegan ",
@@ -340,8 +340,8 @@ const videoIds = {
       }
     }
   },
-  v312617238: {
-    date: "09/20/2019",
+  312617238: {
+    date: "09/20/2018",
     timestamps: {
       "0:00:00": {
         topic: "Looking at news/videos",
@@ -377,7 +377,7 @@ const videoIds = {
       }
     }
   },
-  v313015678: {
+  313015678: {
     date: "09/21/2018",
     timestamps: {
       "0:00:00": {
@@ -470,7 +470,7 @@ const videoIds = {
       }
     }
   },
-  v313149997: {
+  313149997: {
     date: "09/22/2018",
     timestamps: {
       "0:00:00": {
@@ -555,7 +555,7 @@ const videoIds = {
       }
     }
   },
-  v313495572: {
+  313495572: {
     date: "09/22/2018",
     timestamps: {
       "0:00:00": {
@@ -608,7 +608,7 @@ const videoIds = {
       }
     }
   },
-  v313578582: {
+  313578582: {
     date: "09/22/2018",
     timestamps: {
       "0:00:00": {
@@ -661,7 +661,7 @@ const videoIds = {
       }
     }
   },
-  v313633345: {
+  313633345: {
     date: "09/23/2018",
     timestamps: {
       "0:00:00": {
