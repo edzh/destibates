@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 import videoIds from './data/videoIds';
 
 import Player from './components/Player';
@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App font-sans">
         <Navbar />
         <div>
-          <Route exact path={'/'} render={() => <div></div>} />
+          <Route exact path={'/'} render={() => <div><Link to={'/v/311225842/0:00:00'}>Link</Link></div>} />
           <Route path={'/v/:videoId/:timestamp'} component={Player} />
         </div>
       </div>
