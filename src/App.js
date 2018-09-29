@@ -16,7 +16,7 @@ class App extends Component {
           <Route path={'/v/:videoId/:timestamp'} component={Player} />
           <Route path={'/'} render={() =>
             <div>
-              <Link className=" no-underline" to={'/v/311225842/0:00:00'}><button className="block text-white mx-auto my-auto bg-grey-darker font-semibold text-lg p-4 shadow-md">Click here to begin watching</button></Link>
+              <Link className=" no-underline" to={'/v/311225842/0:00:00'}><button className="block text-white mx-auto mt-8 hover:bg-grey-lighter hover:text-grey-darkest rounded bg-grey-darker font-semibold text-lg p-4 shadow-md">Click here to begin watching</button></Link>
             </div>
           }
           />
