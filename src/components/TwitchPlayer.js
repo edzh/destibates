@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 function hmsToSecondsOnly(str) {
+  if (!str) {
+    return '';
+  }
+
   var p = str.split(':'),
     s = 0, m = 1;
 

@@ -1,42 +1,35 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 import TimeList from './TimeList'
 import TwitchPlayer from './TwitchPlayer'
 import VideoList from './VideoList';
-
-function hmsToSecondsOnly(str) {
-  var p = str.split(':'),
-    s = 0, m = 1;
-
-  while (p.length > 0) {
-    s += m * parseInt(p.pop(), 10);
-    m *= 60;
-  }
-
-  return s;
-}
 
 class Player extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      videoId: this.props.match.params.videoId,
-      timestamp: this.props.match.params.timestamp,
+      videoId: "311132964",
+      timestamp: "0:00:00",
     }
   }
 
   render() {
-    const { videoId, timestamp } = this.props.match.params;
+    const { videoId, timestamp } = this.state;
     return (
       <div className="flex mx-2">
-        <div className="w-1/6">
+        <div className="w-48">
           <VideoList />
         </div>
-        <div className="w-2/3">
-          <TwitchPlayer timestamp={timestamp} width={"100%"} height={"720"} videoId={videoId} />
+        <div className="w-full">
+          <Route exact path={"/v/:videoId/:timestamp?"} render={({ match }) => (
+            <TwitchPlayer timestamp={match.params.timestamp} width={"100%"} height={"720"} videoId={match.params.videoId} />
+          )} />
         </div>
-        <div className="w-1/6">
-          <TimeList timestamp={timestamp} videoId={videoId} />
+        <div className="" style={{width: "24rem"}}>
+          <Route path={"/v/:videoId"} render={({ match }) => (
+            <TimeList timestamp={timestamp} videoId={match.params.videoId} />
+          )}/>
         </div>
       </div>
     )
