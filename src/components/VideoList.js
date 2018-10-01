@@ -11,15 +11,26 @@ class VideoList extends Component {
     this.state = {
       dates: {}
     }
+
+    this.toggleDate = this.toggleDate.bind(this);
   }
 
   componentDidMount() {
     Object.keys(videoIds).forEach(key => {
       this.setState(prevState => ({ dates: {
         ...prevState.dates,
-        [videoIds[key].date]: true}
+        [videoIds[key].date]: false}
       }));
     })
+  }
+
+  toggleDate(date) {
+    this.setState(prevState => ({
+      dates: {
+        ...prevState.dates,
+        [date]: !this.state.dates[date]
+      }
+    }))
   }
 
   render() {
@@ -28,11 +39,13 @@ class VideoList extends Component {
       console.log(date) 
     })
     return(
-      <div className="overflow-auto" style={{height: '720px'}}>
+      <div className="overflow-auto mr-2" style={{height: '720px'}}>
       { Object.keys(dates).map(date => 
         <div key={date} className="mb-2 p-2 bg-black shadow-md block text-grey">
-          <p className="mb-2">{date}</p>
-          <VideoDate date={date} />
+          <p className="mb-2 cursor-pointer" onClick={() => this.toggleDate(date)}>{date}</p>
+          <div className={`${dates[date] || 'hidden'} `}>
+            <VideoDate date={date} />
+          </div>
         </div>
         )
       }
