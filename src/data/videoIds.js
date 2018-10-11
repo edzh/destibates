@@ -61,7 +61,7 @@ const videoIds = {
       "5:24:52": {
         "topic": "Squad games with Pokelawls, Trainwrecks and Vigor",
         "category": "COD:BO4 Blackout"
-      },
+      }
     }
   },
   311225842: {
@@ -184,7 +184,7 @@ const videoIds = {
       "5:18:43": {
         topic: "Destiny and Devin discussing plans for tomorrow",
         category: "-"
-      },
+      }
     }
   },
   311970939: {
@@ -217,7 +217,7 @@ const videoIds = {
       "0:34:52": {
         topic: "Devin doesn't get his order made and talking about restaurants",
         category: "IRL (Denny's)"
-      },
+      }
     }
   },
   312218518: {
@@ -1262,6 +1262,1423 @@ const videoIds = {
       "2:07:56": {
         topic: "Reading a post about Elon/Musk and Tesla",
         category: "Reddit"
+      }
+    }
+  },
+  316894624: {
+    date: "10/01/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Talking about car transmissions",
+        category: "Discussion"
+      },
+      "0:23:20": {
+        topic: "Watching Kanye on SNL and a mythcon video",
+        category: "Videos"
+      },
+      "0:29:09": {
+        topic: "Playing Zerg on ladder",
+        category: "Starcraft 2"
+      },
+      "1:03:58": {
+        topic: "Doing emails and talking to MrMouton",
+        category: "-"
+      },
+      "1:09:34": {
+        topic: "Playing a game of CS:GO with MrMouton",
+        category: "CS:GO (Duo)"
+      },
+      "1:49:57": {
+        topic: "Playing Chess with MrMouton",
+        category: "Chess"
+      },
+      "2:06:19": {
+        topic: "Break with MrMouton entertaining the stream while Destiny is afk",
+        category: "-"
+      },
+      "2:10:48": {
+        topic: "More Chess with MrMouton",
+        category: "Chess"
+      },
+      "2:42:29": {
+        topic: "Doing emails and talking to MrMouton",
+        category: "-"
+      },
+      "2:54:38": {
+        topic: "Playing another game of CS:GO with MrMouton",
+        category: "CS:GO (Duo)"
+      },
+      "3:26:50": {
+        topic: "Doing emails and talking to MrMouton",
+        category: "-"
+      },
+      "3:30:26": {
+        topic: "Playing a game of CS:GO with MrMouton",
+        category: "CS:GO (Duo)"
+      },
+      "3:43:57": {
+        topic: "Harkdan joins the call",
+        category: "CS:GO (Duo)"
+      },
+      "4:01:24": {
+        topic: "Reading a statement about the Kavanaugh accusations",
+        category: "Twitter"
+      },
+      "4:02:42": {
+        topic: "A game of chess with MrMouton",
+        category: "Chess"
+      },
+      "4:06:16": {
+        topic: "Stream housekeeping stuff until end of stream",
+        category: "-"
+      }
+    }
+  },
+  317100909: {
+    date: "10/01/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing Zerg and talking to MrMouton",
+        category: "Starcraft 2 "
+      },
+      "0:44:08": {
+        topic: "Playing Zerg and talking to MrMouton about first hand experience",
+        category: "Starcraft 2/Discussion"
+      },
+      "0:50:59": {
+        topic: "Playing Zerg and talking to MrMouton",
+        category: "Starcraft 2 "
+      },
+      "1:09:43": {
+        topic: "Playing Zerg and listening to a Trump press conference ",
+        category: "Starcraft 2/Video"
+      },
+      "1:20:35": {
+        topic: "Playing Zerg and talking to MrMouton",
+        category: "Starcraft 2"
+      },
+      "1:46:03": {
+        topic: "Starcraft 2 Game vs Incontrol",
+        category: "Starcraft 2 "
+      },
+      "1:59:57": {
+        topic: "Playing Zerg and talking to MrMouton",
+        category: "Starcraft 2"
+      },
+      "2:36:32": {
+        topic: "Making a meme post on /r/Starcraft",
+        category: "Reddit"
+      },
+      "2:38:10": {
+        topic: "Trying to fix network drives in windows",
+        category: "-"
+      },
+      "2:47:44": {
+        topic: "looking at social media",
+        category: "-"
+      },
+      "2:53:11": {
+        topic: "Playing a game of CS:GO with MrMouton",
+        category: "CS:GO (Duo)"
+      }
+    }
+  },
+  317243745: {
+    date: "10/01/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing against the AI with Nathan",
+        category: "Starcraft 2 (Duo)"
+      },
+      "0:38:18": {
+        topic: "Talking to someone about knowledge and veganism",
+        category: "Discussion"
+      },
+      "1:09:32": {
+        topic: "Break with audio muted due to copyright",
+        category: "-"
+      },
+      "1:19:46": {
+        topic: "Talking about the new D&D campaign that will start soon",
+        category: "Discussion"
+      },
+      "1:28:54": {
+        topic: "Roasting Greekgod X after he calls Destiny short",
+        category: "Video"
+      },
+      "1:30:58": {
+        topic: "Reddit recap",
+        category: "Reddit"
+      },
+      "1:36:37": {
+        topic: "Watching some political/economics memes",
+        category: "Videos"
+      },
+      "1:48:29": {
+        topic: "Talking about class and welfare",
+        category: "Discussion"
+      },
+      "1:51:36": {
+        topic: "Talking to Harkdan about Ben Shapiro and playing Zerg ",
+        category: "Starcraft 2"
+      },
+      "2:09:41": {
+        topic: "Reading a post about taxes and talking about how tax bracket works",
+        category: "Discussion"
+      },
+      "2:13:14": {
+        topic: "Watching memes from reddit",
+        category: "Videos"
+      },
+      "2:18:17": {
+        topic: "Talking to Harkdan about twitchcon plans",
+        category: "Discussion"
+      },
+      "2:19:51": {
+        topic: "Talking to Harkdan while playing Zerg",
+        category: "Starcraft 2"
+      },
+      "2:27:06": {
+        topic: "Playing Zerg on ladder (audio partially muted due to copyright)",
+        category: "Starcraft 2"
+      },
+      "3:26:30": {
+        topic: "Playing Protoss on ladder",
+        category: "Starcraft 2"
+      },
+      "4:02:21": {
+        topic: "Watching videos from livestreamfails",
+        category: "Videos"
+      },
+      "4:13:31": {
+        topic: "Watching a couple of videos on politics ",
+        category: "Videos/Discussion"
+      },
+      "4:18:24": {
+        topic: "Talking about calling into a conservative radio show",
+        category: "Discussion"
+      },
+      "4:22:13": {
+        topic: "Talking about some about some Young Turks guy",
+        category: "Discussion"
+      },
+      "4:23:43": {
+        topic: "Talking about anime and animation in general",
+        category: "Discussion"
+      },
+      "5:01:24": {
+        topic: "Break",
+        category: "-"
+      },
+      "5:04:24": {
+        topic: "Watching a Steven Crowder video on gender and talking about gender",
+        category: "Video/Discussion"
+      },
+      "5:13:39": {
+        topic: "Playing games with Dyana",
+        category: "League of Legends (Duo)"
+      },
+      "6:12:23": {
+        topic: "Video on opening a gun safe with a gum wrapper",
+        category: "Video"
+      }
+    }
+  },
+  317525051: {
+    date: "10/02/2018",
+    timestamps: {
+      "0:49:14": {
+        topic: "Talking about psychedelics and evolution",
+        category: "Discussion"
+      },
+      "1:00:13": {
+        topic: "Talking about physics",
+        category: "Discussion"
+      },
+      "1:01:29": {
+        topic: "Talking about sociopathy",
+        category: "Discussion"
+      },
+      "1:04:01": {
+        topic: "Pimping out Destinys instagram",
+        category: "Discussion"
+      },
+      "1:05:20": {
+        topic: "Talking about Greeks fans and what he enjoys doing",
+        category: "Discussion"
+      },
+      "1:13:25": {
+        topic: "Talking about battleroyale games",
+        category: "Discussion"
+      },
+      "1:19:26": {
+        topic: "Roasting greek for a bit",
+        category: "Discussion"
+      },
+      "1:23:59": {
+        topic: "Talking about clothing",
+        category: "Discussion"
+      },
+      "1:25:43": {
+        topic: "Talking about streaming",
+        category: "Discussion"
+      },
+      "1:31:31": {
+        topic: "Pimping out Destinys instagram again",
+        category: "Discussion"
+      },
+      "1:36:10": {
+        topic: "Talking about Dr.Disrespect",
+        category: "Discussion"
+      },
+      "1:44:02": {
+        topic: "Destiny plays piano ",
+        category: "Discussion"
+      },
+      "1:48:08": {
+        topic: "Reckful joins the call to fix his camera problem",
+        category: "Discussion"
+      },
+      "2:05:53": {
+        topic: "Talking about Greeks fanbase",
+        category: "Discussion"
+      },
+      "2:16:50": {
+        topic: "Sodapoppin joins the call and try to fix Reckfuls technical issues",
+        category: "Discussion"
+      },
+      "2:19:29": {
+        topic: "Reckful apartment tour",
+        category: "Discussion"
+      },
+      "2:23:49": {
+        topic: "Talking about Greeks fanbase and iceposideons subreddit",
+        category: "Discussion"
+      },
+      "2:32:00": {
+        topic: "Talking about Reckfuls camera issues again",
+        category: "Discussion"
+      },
+      "2:34:13": {
+        topic: "Greek tries gnoming Destiny",
+        category: "Discussion"
+      },
+      "2:35:25": {
+        topic: "Talking about battleroyale games",
+        category: "Discussion"
+      },
+      "2:37:44": {
+        topic: "Sodapoppin tells a couple of intresting stories...",
+        category: "Discussion"
+      },
+      "2:39:06": {
+        topic: "Reckful has audio issues",
+        category: "Discussion"
+      },
+      "2:45:50": {
+        topic: "Reckful eats a burger and everyone roasts Greek for not having a clothes dryer",
+        category: "Discussion"
+      },
+      "2:52:23": {
+        topic: "Roasting greek for a bit and sodapoppin tells a story about Greek",
+        category: "Discussion"
+      },
+      "2:55:27": {
+        topic: "Talking about Greeks diet and food in general",
+        category: "Discussion"
+      },
+      "3:22:13": {
+        topic: "Talking about sleep",
+        category: "Discussion"
+      },
+      "3:24:45": {
+        topic: "Talking about games and streaming and Destiny leaves to pick Nathan up",
+        category: "Discussion"
+      }
+    }
+  },
+  317626353: {
+    date: "10/02/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Destiny rejoins with Greek, Reckful and Soda and talking about Mario Party",
+        category: "Discussion",
+      },
+      "0:03:41": {
+        topic: "Talking about microphones, Mario Party and streaming it",
+        category: "Discussion",
+      },
+      "0:15:43": {
+        topic: "Reckfuls housekeepers come over to clean",
+        category: "Discussion",
+      },
+      "0:19:51": {
+        topic: "Roasting Greek",
+        category: "Discussion",
+      },
+      "0:23:46": {
+        topic: "Reckfuls 150ft HDMI cable",
+        category: "Discussion",
+      },
+      "0:25:48": {
+        topic: "Talking about twitch and streaming",
+        category: "Discussion",
+      },
+      "0:29:14": {
+        topic: "",
+        category: "Discussion",
+      },
+      "0:32:49": {
+        topic: "Talking about Reckfuls WoW ban and getting banned in games ",
+        category: "Discussion",
+      },
+      "0:36:59": {
+        topic: "Talking about crazy viewers",
+        category: "Discussion",
+      },
+      "0:41:32": {
+        topic: "Greek tries roasting Destiny ",
+        category: "Discussion",
+      },
+      "0:43:26": {
+        topic: "Talking about being articulate",
+        category: "Discussion",
+      },
+      "0:44:34": {
+        topic: "Talking about how old their twitch accounts are and old twitch",
+        category: "Discussion",
+      },
+      "0:47:08": {
+        topic: "Soda tells a story about getting scammed out of 25k",
+        category: "Discussion",
+      },
+      "0:50:03": {
+        topic: "Talking about people who overstay their welcome",
+        category: "Discussion",
+      },
+      "0:53:55": {
+        topic: "Talking about getting angry when playing games",
+        category: "Discussion",
+      },
+      "0:56:53": {
+        topic: "Talking about WoW PvP while playing while playing Zerg",
+        category: "Starcraft 2/Discussion",
+      },
+      "0:59:38": {
+        topic: "Talking about games to play while playing Zerg",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:02:12": {
+        topic: "Talking about twitch subcriptions",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:08:30": {
+        topic: "Soda leaves and Destiny and Reckful talk about investment",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:13:31": {
+        topic: "Talking about Dan Bilzerian",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:14:27": {
+        topic: "Greek talking about how he looks upto Reckful",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:16:42": {
+        topic: "Talking about the shroom trip and psychedelics",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:26:02": {
+        topic: "Reckful goes afk for a bit and Greek and Destiny talk about games",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:28:38": {
+        topic: "Talking about streaming",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:29:46": {
+        topic: "Greek talks about his job history",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:36:23": {
+        topic: "Talking about the Starcraft game ",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:39:46": {
+        topic: "General chat with Greek",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:56:35": {
+        topic: "Reckful comes back and talking about starctaft",
+        category: "Starcraft 2/Discussion",
+      },
+      "1:57:51": {
+        topic: "Reckful wants to get rid of some clothes",
+        category: "Starcraft 2/Discussion",
+      },
+      "2:05:40": {
+        topic: "Reckful wants Destiny to come to Austin",
+        category: "Starcraft 2/Discussion",
+      },
+      "2:08:00": {
+        topic: "Talking about Reckfuls piano setup and piano playing",
+        category: "Music",
+      },
+      "2:22:40": {
+        topic: "Break",
+        category: "-",
+      },
+      "2:25:28": {
+        topic: "Talking about philosophy/veganism/abortion",
+        category: "Discussion",
+      },
+      "2:54:40": {
+        topic: "Back to talking to Reckful and Greek trying to fix Reckfuls piano setup",
+        category: "Music/Discussion",
+      },
+      "3:07:31": {
+        topic: "Trying to setup a minecraft server",
+        category: "-",
+      },
+      "4:14:41": {
+        topic: "Talking to Reckful about determinism",
+        category: "Discussion",
+      },
+      "3:19:49": {
+        topic: "Reckful and Destiny talking about being articulate",
+        category: "Discussion",
+      },
+      "3:28:52": {
+        topic: "League of Legends itemisation and game stat debate",
+        category: "Discussion",
+      },
+      "3:44:31": {
+        topic: "Reckful plays more piano and talking about learning and concentration",
+        category: "Music/Discussion",
+      },
+      "4:00:06": {
+        topic: "Break",
+        category: "-",
+      },
+      "4:04:31": {
+        topic: "Talking about whats going well in each others lives",
+        category: "Discussion",
+      },
+      "4:07:20": {
+        topic: "Talking abotu Twitchcon",
+        category: "Discussion",
+      },
+      "4:09:27": {
+        topic: "Talking about and playing typeracer",
+        category: "Typeracer",
+      },
+      "4:16:11": {
+        topic: "Watching a CNN video about Kavanagh/Dr.Ford",
+        category: "Video/Discussion",
+      },
+      "4:25:36": {
+        topic: "Talking about Greeks plan when hes in the US and general chat",
+        category: "Discussion",
+      },
+      "4:40:54": {
+        topic: "Talking about cameras for stream",
+        category: "Discussion",
+      },
+      "4:53:38": {
+        topic: "Trying to get Reckfuls Amazon echo to do stuff",
+        category: "Discussion",
+      },
+      "5:02:52": {
+        topic: "Memes until the end of the stream",
+        category: "-",
+      }
+    }
+  },
+  318031989: {
+    date: "10/03/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Calling COX to fix internet issues",
+        category: "-"
+      }
+    }
+  },
+  318042576: {
+    date: "10/03/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Starcraft co-op with Nathan",
+        category: "Starcraft 2 (Duo)",
+      },
+      "0:49:53": {
+        topic: "Talking to Reckful and Nymm about what game to play",
+        category: "Discussion",
+      },
+      "0:54:12": {
+        topic: "Playing typeracer against Reckful",
+        category: "Typeracer",
+      }
+    }
+  },
+  318073294: {
+    date: "10/03/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Watching a video on Gross Gore and talking to Reckful and Nymm",
+        category: "Video"
+      },
+      "0:23:45": {
+        topic: "Talking to Reckful about determinism and playing Zerg",
+        category: "Starcraft 2/Discussion"
+      },
+      "0:36:50": {
+        topic: "Talking to Reckful about why people play games and old eSports events and  eSports in general",
+        category: "Starcraft 2/Discussion"
+      },
+      "0:45:34": {
+        topic: "Reckful just talking about his WoW stuff",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:03:00": {
+        topic: "Talking to Reckful about stress and how people perceive the things he says",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:06:39": {
+        topic: "Playing Zerg while Reckful is AFK",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:13:31": {
+        topic: "Reckful leaves to play PvP ",
+        category: "Starcraft 2"
+      },
+      "2:10:30": {
+        topic: "Greekgodx joins the call and starts talking about runescape",
+        category: "Starcraft 2/Discussion"
+      },
+      "2:20:19": {
+        topic: "Talking about porn",
+        category: "Starcraft 2/Discussion"
+      },
+      "2:24:46": {
+        topic: "General chat and playing Starcraft 2",
+        category: "Starcraft 2/Discussion"
+      },
+      "2:33:30": {
+        topic: "Talking about self improvement",
+        category: "Starcraft 2/Discussion"
+      },
+      "2:36:00": {
+        topic: "Talking about shrooms",
+        category: "Starcraft 2/Discussion"
+      },
+      "2:39:46": {
+        topic: "Greek leaves the call",
+        category: "Starcraft 2"
+      },
+      "3:46:49": {
+        topic: "xQc joins the call and plays a 1v1s with Destiny",
+        category: "Starcraft 2"
+      },
+      "4:10:07": {
+        topic: "Sponsored MTG:A beta stream",
+        category: "Magic the Gathering: Arena"
+      },
+      "5:16:22": {
+        topic: "Watching a Warframe trailer and other memes",
+        category: "Videos"
+      },
+      "5:24:59": {
+        topic: "Talking about a strange Email",
+        category: "-"
+      },
+      "5:27:53": {
+        topic: "Talking about random shit",
+        category: "-"
+      },
+      "5:34:35": {
+        topic: "Greek wants a host",
+        category: "Discussion"
+      },
+      "5:36:43": {
+        topic: "Watching a video about wallets and other memes",
+        category: "Videos"
+      },
+      "5:45:16": {
+        topic: "Talking to Harkdan about twitchcon",
+        category: "Discussion"
+      },
+      "5:51:38": {
+        topic: "Talking to Devin about moving to Seattle",
+        category: "Discussion"
+      },
+      "6:06:06": {
+        topic: "Talking with Devin/Harkdan about cars/games/twitch growth/investment/eSports",
+        category: "Discussion"
+      }
+    }
+  },
+  318422825: {
+    date: "10/04/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Watching a meme video",
+        category: "Video"
+      },
+      "0:05:11": {
+        topic: "Discussing t-shirt designs for Meta Threads",
+        category: "Discussion"
+      },
+      "0:20:01": {
+        topic: "Break",
+        category: "-"
+      },
+      "0:23:26": {
+        topic: "Story about how he got https://www.instagram.com/destiny/",
+        category: "Discussion"
+      },
+      "0:33:45": {
+        topic: "Reading an article on fake academic papers",
+        category: "Article"
+      },
+      "0:34:42": {
+        topic: "Info about the new DnD campaign ",
+        category: "Discussion"
+      },
+      "0:52:16": {
+        topic: "Talking about new mobile phones",
+        category: "Discussion"
+      },
+      "0:54:13": {
+        topic: "Watching a video on a woman befriending her attempted killer",
+        category: "Video"
+      },
+      "0:59:13": {
+        topic: "Talking about drink driving",
+        category: "Discussion"
+      },
+      "1:12:36": {
+        topic: "Talking about temptation/acne ",
+        category: "Discussion"
+      },
+      "1:23:39": {
+        topic: "COX man comes to fix the internet",
+        category: "-"
+      }
+    }
+  },
+  318465886: {
+    date: "10/04/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Talking with people from the askyourself discord about age of consent",
+        category: "Discussion"
+      },
+      "0:15:42": {
+        topic: "Talking about Islam and child marriage",
+        category: "Discussion"
+      },
+      "0:26:33": {
+        topic: "Talking about Amos Yee/ paedophilia",
+        category: "Discussion"
+      },
+      "0:30:16": {
+        topic: "Talking about #MeToo movement",
+        category: "Discussion"
+      },
+      "0:39:20": {
+        topic: "Talking about race and IQ and genetics",
+        category: "Discussion"
+      },
+      "0:44:21": {
+        topic: "Veganism and personal philosophy and morality",
+        category: "Discussion"
+      },
+      "1:35:16": {
+        topic: "Talking about Rebel Media",
+        category: "Discussion"
+      },
+      "1:38:00": {
+        topic: "Listen a video from DisguisedToast about how much Twitch streamers make",
+        category: "Video"
+      },
+      "1:39:09": {
+        topic: "Reading comments from chat",
+        category: "Discussion"
+      },
+      "1:43:13": {
+        topic: "Break",
+        category: "-"
+      },
+      "1:49:14": {
+        topic: "Doing emails and reading comments from chat",
+        category: "Discussion"
+      },
+      "2:08:25": {
+        topic: "Lords mobile meeting ",
+        category: "Discussion"
+      },
+      "2:20:55": {
+        topic: "Doing emails and reading comments from chat",
+        category: "Discussion"
+      },
+      "3:17:20": {
+        topic: "Talking to trihex about Twitch",
+        category: "Podcast"
+      },
+      "3:27:44": {
+        topic: "Talking about what topics to talk about",
+        category: "Podcast"
+      },
+      "3:36:06": {
+        topic: "Devin joins",
+        category: "Podcast"
+      },
+      "3:37:16": {
+        topic: "Talking about the new tagging system no Twitch",
+        category: "Podcast"
+      },
+      "3:39:02": {
+        topic: "Discord technical issues",
+        category: "Podcast"
+      },
+      "3:50:50": {
+        topic: "Talking more about Twitch",
+        category: "Podcast"
+      },
+      "3:55:15": {
+        topic: "Talking about Twitch chat backseat gaming",
+        category: "Podcast"
+      },
+      "4:00:24": {
+        topic: "Talking about tags again and the Twitch ecosystem",
+        category: "Podcast"
+      },
+      "4:17:36": {
+        topic: "Talking about DMCAs",
+        category: "Podcast"
+      },
+      "4:21:07": {
+        topic: "Talking about automated cars",
+        category: "Podcast"
+      },
+      "4:24:57": {
+        topic: "Talking about the workplaces/jobs/companies and rent control",
+        category: "Podcast"
+      },
+      "4:38:39": {
+        topic: "Talking about ISPs and cell phone networks",
+        category: "Podcast"
+      },
+      "5:10:23": {
+        topic: "Talking about retaining talent ",
+        category: "Podcast"
+      },
+      "5:13:33": {
+        topic: "Becoming self sustaining yourself on Twitch",
+        category: "Podcast"
+      },
+      "5:26:08": {
+        topic: "Talking about twitter ban",
+        category: "Podcast"
+      },
+      "5:31:05": {
+        topic: "Talking about Activision/Bungie",
+        category: "Podcast"
+      },
+      "5:40:37": {
+        topic: "Talking about the potential downfall of battleroyale games ",
+        category: "Podcast"
+      },
+      "5:41:48": {
+        topic: "Taking about eSports",
+        category: "Podcast"
+      },
+      "5:54:41": {
+        topic: "Lacari joins the podcast and everyone starts talking about FGC",
+        category: "Podcast"
+      },
+      "6:06:30": {
+        topic: "Talking about MOBAs",
+        category: "Podcast"
+      },
+      "6:12:30": {
+        topic: "Getting back on topic",
+        category: "Podcast"
+      },
+      "6:13:56": {
+        topic: "Talking about twitch tags and discoverability",
+        category: "Podcast"
+      },
+      "6:45:39": {
+        topic: "Talking about fast food and going to the gym",
+        category: "Podcast"
+      },
+      "7:01:55": {
+        topic: "Trihex talking about himself",
+        category: "Podcast"
+      },
+      "7:12:30": {
+        topic: "Talking about twitch chat and long time subscribers",
+        category: "Podcast"
+      },
+      "7:31:03": {
+        topic: "Talking about why do people stream and dealing with toxic enviroments on twitch",
+        category: "Podcast"
+      },
+      "7:39:40": {
+        topic: "Talking about the new ban feature on twitch",
+        category: "Podcast"
+      },
+      "7:45:14": {
+        topic: "Getting suspended from twitch because of twitch clips",
+        category: "Podcast"
+      },
+      "7:48:23": {
+        topic: "Talking about cloning yourself and time travel",
+        category: "Podcast"
+      },
+      "7:56:02": {
+        topic: "Talking about nextpod cast",
+        category: "Podcast"
+      },
+      "7:58:30": {
+        topic: "Destiny asks Lacari about his head",
+        category: "Podcast"
+      },
+      "7:59:03": {
+        topic: "Talking about height",
+        category: "Podcast"
+      },
+      "8:04:14": {
+        topic: "Talking about dealing with the general public while being efamous",
+        category: "Podcast"
+      },
+      "8:08:59": {
+        topic: "Talking about twitter",
+        category: "Podcast"
+      },
+      "8:14:48": {
+        topic: "Talking about Bowsette",
+        category: "Podcast"
+      },
+      "8:18:46": {
+        topic: "Talking about the Venom film and comic book films",
+        category: "Podcast"
+      },
+      "8:29:31": {
+        topic: "Lacari gets mad again",
+        category: "Podcast"
+      },
+      "8:30:43": {
+        topic: "Wrapping up the podcast",
+        category: "Podcast"
+      },
+      "8:37:24": {
+        topic: "Wrapping up the stream",
+        category: "Podcast"
+      }
+    }
+  },
+  318837056: {
+    date: "10/05/18",
+    timestamps: {
+      "0:00:00": {
+        topic: "Talking to MrMouton about twitch bounty system and playing Minecraft and kavanaugh getting confirmed",
+        category: "Discussion/Minecraft"
+      },
+      "0:07:47": {
+        topic: "Playing Starcraft 2 with Nathan and talking to MrMouton",
+        category: "Starcraft 2 (duo)"
+      },
+      "1:06:47": {
+        topic: "Talking about psychology with MrMouton and playing Minecraft",
+        category: "Discussion/Minecraft"
+      },
+      "1:26:24": {
+        topic: "Destiny AFK with MrMouton talking to stream",
+        category: "-"
+      },
+      "1:43:08": {
+        topic: "Choosing what to do and Kyle joins the call ",
+        category: "Discussion/Minecraft"
+      },
+      "1:52:20": {
+        topic: "Playing a sponsered mobile game and talking about mobile games with Kyle and MrMouton",
+        category: "Discussion/Dungeon Hunter Champions"
+      },
+      "2:12:59": {
+        topic: "Talking about the MMA fight",
+        category: "Discussion/Dungeon Hunter Champions"
+      },
+      "2:14:51": {
+        topic: "Talking about games and Twitch bounties",
+        category: "Discussion/Dungeon Hunter Champions"
+      },
+      "2:40:06": {
+        topic: "Stalled joins the call and starts talking about politics",
+        category: "Discussion/Dungeon Hunter Champions"
+      },
+      "2:59:58": {
+        topic: "Playing Minecraft and talking to Stalled and Kyle about politics",
+        category: "Minecraft/Discussion"
+      },
+      "3:18:49": {
+        topic: "Talking about social media with Stalled and Kyle",
+        category: "Minecraft/Discussion"
+      },
+      "3:27:56": {
+        topic: "Talking about real estate ",
+        category: "Minecraft/Discussion"
+      },
+      "3:30:43": {
+        topic: "Talking about games",
+        category: "Minecraft/Discussion"
+      },
+      "3:32:51": {
+        topic: "More political talk",
+        category: "Minecraft/Discussion"
+      },
+      "3:37:28": {
+        topic: "Destiny wants to start a restaurant",
+        category: "Minecraft/Discussion"
+      },
+      "3:39:08": {
+        topic: "Talking about the police",
+        category: "Minecraft/Discussion"
+      },
+      "3:40:01": {
+        topic: "Kyle Talking about his crazy friend",
+        category: "Minecraft/Discussion"
+      },
+      "3:41:54": {
+        topic: "Talking about politics and investment/bitcoin",
+        category: "Minecraft/Discussion"
+      },
+      "4:00:41": {
+        topic: "Break",
+        category: "-"
+      },
+      "4:04:08": {
+        topic: "Talking about credit card points and stocks/games and other general chat",
+        category: "Minecraft/Discussion"
+      },
+      "4:41:29": {
+        topic: "Talking about trihex and the trihard emote",
+        category: "Minecraft/Discussion"
+      },
+      "4:43:00": {
+        topic: "Reading an article about an article about the trihard emote",
+        category: "Article"
+      },
+      "4:46:56": {
+        topic: "Talking about Richard Lewis and Thorin",
+        category: "Minecraft/Discussion"
+      },
+      "4:52:38": {
+        topic: "Talking about elitism ",
+        category: "Minecraft/Discussion"
+      },
+      "4:54:10": {
+        topic: "Talking about sports teams",
+        category: "Minecraft/Discussion"
+      },
+      "5:00:25": {
+        topic: "Talking about the gnome meme",
+        category: "Minecraft/Discussion"
+      },
+      "5:03:01": {
+        topic: "Talking about games and other general stuff until the end of stream",
+        category: "Minecraft/Discussion"
+      }
+    }
+  },
+  318992830: {
+    date: "10/05/18",
+    timestamps: {
+      "0:00:00": {
+        topic: "Looking at subcounts of streamers",
+        category: "Minecraft/Discussion"
+      },
+      "0:03:04": {
+        topic: "Talking about political enemies ",
+        category: "Minecraft/Discussion"
+      },
+      "0:09:52": {
+        topic: "Talking about nuclear weapons",
+        category: "Minecraft/Discussion"
+      },
+      "0:11:41": {
+        topic: "Reading random comments from chat (games/politics/philosophy)",
+        category: "Minecraft/Discussion"
+      },
+      "0:55:23": {
+        topic: "Kavanaugh/Dr Ford bayesian calculator/bayesian statistics",
+        category: "Minecraft/Discussion"
+      },
+      "1:12:12": {
+        topic: "Reading random comments from chat (games/politics/philosophy)",
+        category: "Minecraft/Discussion"
+      },
+      "1:56:07": {
+        topic: "The reality of Nazi \"science experiments\"",
+        category: "Minecraft/Discussion"
+      },
+      "2:16:01": {
+        topic: "Talking about knowledge/philosophy",
+        category: "Minecraft/Discussion"
+      },
+      "2:39:56": {
+        topic: "Reading random comments from chat (games/politics/philosophy/drugs)",
+        category: "Minecraft/Discussion"
+      },
+      "4:35:56": {
+        topic: "Playing Minecraft and talking to GirlWithYellowSpoon",
+        category: "Minecraft"
+      },
+      "5:38:35": {
+        topic: "Break with GirlWithYellowSpoon talking to chat",
+        category: "Minecraft"
+      },
+      "5:56:32": {
+        topic: "Playing Minecraft and talking to GirlWithYellowSpoon",
+        category: "Minecraft"
+      },
+      "6:31:51": {
+        topic: "Watching cringe videos",
+        category: "Videos"
+      },
+      "6:59:03": {
+        topic: "Playing Minecraft and talking to GirlWithYellowSpoon",
+        category: "Minecraft"
+      }
+    }
+  },
+  319179054: {
+    date: "10/06/18",
+    timestamps: {
+      "0:00:00" : {
+        topic: "Setting up the AMA",
+        category: "Discord AMA"
+      },
+      "0:14:51" : {
+        topic: "Would you be open to doing formal debates?",
+        category: "Discord AMA"
+      },
+      "0:15:44" : {
+        topic: "Do people obsess over GMO crops?",
+        category: "Discord AMA"
+      },
+      "0:16:31" : {
+        topic: "Opinion on Transracialism",
+        category: "Discord AMA"
+      },
+      "0:17:24" : {
+        topic: "Has the experience of being a father made you feel more for other people",
+        category: "Discord AMA"
+      },
+      "0:18:04" : {
+        topic: "When you worked at the casino could you gamble?",
+        category: "Discord AMA"
+      },
+      "0:18:57" : {
+        topic: "Do you think people on different discord servers are trolling or sincere",
+        category: "Discord AMA"
+      },
+      "0:19:52" : {
+        topic: "How do you feel about body positivity",
+        category: "Discord AMA"
+      },
+      "0:24:43" : {
+        topic: "Do you think perscription drug ads are bad",
+        category: "Discord AMA"
+      },
+      "0:27:52" : {
+        topic: "How do you argue with someone who speaks from ignorance but are  sincere",
+        category: "Discord AMA"
+      },
+      "0:29:50" : {
+        topic: "Lord mobiles question",
+        category: "Discord AMA"
+      },
+      "0:30:15" : {
+        topic: "Are AP classes more beneficial and is college worth it",
+        category: "Discord AMA"
+      },
+      "0:32:53" : {
+        topic: "Are you going to play the new season of league",
+        category: "Discord AMA"
+      },
+      "0:34:55" : {
+        topic: "Books vs tablets in school",
+        category: "Discord AMA"
+      },
+      "0:36:48" : {
+        topic: "Why are anti-SJWs cancer/is there any value in anti-SJWs videos",
+        category: "Discord AMA"
+      },
+      "0:42:27" : {
+        topic: "Can a person in a position of power have a sexual relationship with someone beneath them",
+        category: "Discord AMA"
+      },
+      "0:43:21" : {
+        topic: "Any advice you would of liked before you started streaming",
+        category: "Discord AMA"
+      },
+      "0:47:06" : {
+        topic: "Do you think advertising mobile games is ethical",
+        category: "Discord AMA"
+      },
+      "0:47:48" : {
+        topic: "Opinion on Syrian civil war",
+        category: "Discord AMA"
+      },
+      "0:48:37" : {
+        topic: "If Nathan was getting bullied would you tell him to fight back",
+        category: "Discord AMA"
+      },
+      "0:49:06" : {
+        topic: "Individual agency ",
+        category: "Discord AMA"
+      },
+      "0:50:10" : {
+        topic: "What do you think of age of consent in other states being lower",
+        category: "Discord AMA"
+      },
+      "0:53:03" : {
+        topic: "Have you ever hit a real bad mental state",
+        category: "Discord AMA"
+      },
+      "0:54:28" : {
+        topic: "Would like to live in a different country and which one",
+        category: "Discord AMA"
+      },
+      "0:55:01" : {
+        topic: "Why do you respect Pokimane",
+        category: "Discord AMA"
+      },
+      "0:55:38" : {
+        topic: "What life problems did you face when you were a carpet cleaner",
+        category: "Discord AMA"
+      },
+      "1:01:44" : {
+        topic: "Why has your viewership risen rapidly recently",
+        category: "Discord AMA"
+      },
+      "1:03:46" : {
+        topic: "How did  the debates with skeptics and alt righters change your beliefs",
+        category: "Discord AMA"
+      },
+      "1:04:53" : {
+        topic: "How do you feel about deplatforming of political enemies",
+        category: "Discord AMA"
+      },
+      "1:05:28" : {
+        topic: "Do you think there should be mandatory tv time for political candidates",
+        category: "Discord AMA"
+      },
+      "1:07:37" : {
+        topic: "What is your motivation for doing shrooms again",
+        category: "Discord AMA"
+      },
+      "1:08:29" : {
+        topic: "How was it smoking weed after your shroom trip",
+        category: "Discord AMA"
+      },
+      "1:11:42" : {
+        topic: "Occupation of palestine",
+        category: "Discord AMA"
+      },
+      "1:12:32" : {
+        topic: "Was British imperialism positive or negative",
+        category: "Discord AMA"
+      },
+      "1:14:42" : {
+        topic: "Any updates on the two chat system",
+        category: "Discord AMA"
+      },
+      "1:16:19" : {
+        topic: "What has changed about ideas about veganism",
+        category: "Discord AMA"
+      },
+      "1:17:54" : {
+        topic: "Lord Mobile meme question",
+        category: "Discord AMA"
+      },
+      "1:19:02" : {
+        topic: "What are some of your favourite movies",
+        category: "Discord AMA"
+      },
+      "1:19:45" : {
+        topic: "Are you disillusioned with your debates and a question about drugs",
+        category: "Discord AMA"
+      },
+      "1:23:30" : {
+        topic: "Which debates that you have had do you consider productive",
+        category: "Discord AMA"
+      },
+      "1:24:48" : {
+        topic: "Whats your opinion on the Kavanugh hearings",
+        category: "Discord AMA"
+      },
+      "1:26:39" : {
+        topic: "Do you think Twitch should mandate to streamers to go see a therapist",
+        category: "Discord AMA"
+      },
+      "1:28:01" : {
+        topic: "Do you think smaller streamers have to be worried about big streamers taking their audience",
+        category: "Discord AMA"
+      },
+      "1:29:33" : {
+        topic: "How do you feel about the gnome meme going mainstream and the yikes meme",
+        category: "Discord AMA"
+      },
+      "1:31:39" : {
+        topic: "Would you ever live in a gaming house",
+        category: "Discord AMA"
+      },
+      "1:32:29" : {
+        topic: "Why do you like sex so much",
+        category: "Discord AMA"
+      },
+      "1:33:06" : {
+        topic: "When is the next music comp challenge",
+        category: "Discord AMA"
+      },
+      "1:33:20" : {
+        topic: "Favourite part of learning about psych in high school",
+        category: "Discord AMA"
+      },
+      "1:36:01" : {
+        topic: "If you go back in time would you still have a child",
+        category: "Discord AMA"
+      },
+      "1:38:08" : {
+        topic: "Opinion suicide",
+        category: "Discord AMA"
+      },
+      "1:46:33" : {
+        topic: "Quantum mechanics and determinism",
+        category: "Discord AMA"
+      },
+      "1:48:29" : {
+        topic: "What got you on anti-moral realism",
+        category: "Discord AMA"
+      },
+      "1:50:42" : {
+        topic: "Question on JFs moral position",
+        category: "Discord AMA"
+      },
+      "1:52:01" : {
+        topic: "What would have to happen for League to become the top played game again",
+        category: "Discord AMA"
+      },
+      "1:54:03" : {
+        topic: "Do you think you have depression",
+        category: "Discord AMA"
+      },
+      "1:57:01" : {
+        topic: "Mental illness in general and attention span",
+        category: "Discord AMA"
+      },
+      "2:01:03" : {
+        topic: "Why do you think you get bored of romantic relationships after a while",
+        category: "Discord AMA"
+      },
+      "2:02:34" : {
+        topic: "Are there are updates on any of your social media",
+        category: "Discord AMA"
+      },
+      "2:03:02" : {
+        topic: "Stupid fucking question ",
+        category: "Discord AMA"
+      },
+      "2:03:36" : {
+        topic: "Adderall and drug enhancement in esports and sports",
+        category: "Discord AMA"
+      },
+      "2:06:42" : {
+        topic: "Do you think anonymity should remain online",
+        category: "Discord AMA"
+      },
+      "2:08:48" : {
+        topic: "Have you read Ben Shapiros novel",
+        category: "Discord AMA"
+      },
+      "2:09:35" : {
+        topic: "Do you think that disliking content based on the fan base is legitimate",
+        category: "Discord AMA"
+      },
+      "2:11:01" : {
+        topic: "Do you think its better to lie about certain moral positions",
+        category: "Discord AMA"
+      },
+      "2:12:24" : {
+        topic: "Some autisitc question about dating",
+        category: "Discord AMA"
+      },
+      "2:15:15" : {
+        topic: "Is egoism a neutral claim",
+        category: "Discord AMA"
+      },
+      "2:17:48" : {
+        topic: "When would you introduce Nathan to guns",
+        category: "Discord AMA"
+      },
+      "2:21:36" : {
+        topic: "Talking about socialsm/Marxism in the USA with Xexizy",
+        category: "Discord AMA"
+      },
+      "2:48:55" : {
+        topic: "Would you ever consider doing Yoga",
+        category: "Discord AMA"
+      },
+      "2:49:26" : {
+        topic: "Why do you find the idea of the 'deep state' not viable ",
+        category: "Discord AMA"
+      },
+      "2:52:04" : {
+        topic: "Do you think they should put warnings on mobile games ",
+        category: "Discord AMA"
+      },
+      "2:54:16" : {
+        topic: "If science is pushed by cultural norms how do you still trust it?",
+        category: "Discord AMA"
+      },
+      "2:57:25" : {
+        topic: "Should critical thinking be taught in school",
+        category: "Discord AMA"
+      },
+      "3:05:29" : {
+        topic: "What are your objectiions to consequentialism",
+        category: "Discord AMA"
+      },
+      "3:08:26" : {
+        topic: "Question about activism",
+        category: "Discord AMA"
+      },
+      "3:11:54" : {
+        topic: "long ass philosophy discussion",
+        category: "Discord AMA"
+      },
+      "3:42:07" : {
+        topic: "Why doesn't destiny spend more time in Discord",
+        category: "Discord AMA"
+      },
+      "3:43:41" : {
+        topic: "Why did you not network early in your career",
+        category: "Discord AMA"
+      },
+      "3:45:07" : {
+        topic: "Talking with MrMouton after the AMA and polls about stuff",
+        category: "-"
+      },
+      "3:57:29" : {
+        topic: "Devin joins the call ",
+        category: "-"
+      },
+      "4:04:43" : {
+        topic: "CS:GO with MrMouton while talking with Devin",
+        category: "CS:GO (Duo)"
       }
     }
   }

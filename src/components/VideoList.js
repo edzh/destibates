@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import moment from 'moment';
 import videoIds from '../data/videoIds';
 
 import VideoDate from './VideoDate';
@@ -42,7 +43,7 @@ class VideoList extends Component {
       <div className="overflow-auto mr-2" style={{height: '720px'}}>
       { Object.keys(dates).map(date =>
         <div key={date} className="mb-2 p-2 bg-black shadow-md block text-grey">
-          <p className="mb-2 cursor-pointer" onClick={() => this.toggleDate(date)}>{date}</p>
+          <p className="mb-2 cursor-pointer" onClick={() => this.toggleDate(date)}>{moment(date, 'MM[/]DD[/]YYYY').format('MMM DD')}</p>
           <div className={dates[date] ? '' : 'hidden'}>
             <VideoDate date={date} />
           </div>
