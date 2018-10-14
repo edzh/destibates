@@ -698,180 +698,180 @@ const videoIds = {
     date: "09/24/2018",
     timestamps: {
       "0:00:00": {
-        topic: "Starcraft 2",
-        category: "Learning/laddering as Protoss (Audio partially muted)",
+        topic: "Learning/laddering as Protoss (Audio partially muted)",
+        category: "Starcraft 2"
       },
       "1:24:29": {
-        topic: "Discussion",
-        category: "Drake talking to a 14 year old",
+        topic: "Drake talking to a 14 year old",
+        category: "Discussion"
       },
       "1:28:06": {
-        topic: "Discussion",
-        category: "New Brett Kavanaugh accusations",
+        topic: "New Brett Kavanaugh accusations",
+        category: "Discussion"
       },
       "1:29:26": {
-        topic: "Discussion",
-        category: "More Drake stuff",
+        topic: "More Drake stuff",
+        category: "Discussion"
       },
       "1:31:42": {
-        topic: "Discussion",
-        category: "Weight lifting meme",
+        topic: "Weight lifting meme",
+        category: "Discussion"
       },
       "1:35:09": {
-        topic: "Discussion",
-        category: "Talking about childing grooming",
+        topic: "Talking about childing grooming",
+        category: "Discussion"
       },
       "1:36:59": {
-        topic: "Videos",
-        category: "Two memes from the subreddit",
+        topic: "Two memes from the subreddit",
+        category: "Videos"
       },
       "1:38:23": {
-        topic: "Video/Discussion",
-        category: "Watching a Joe Rogan video on income inequality",
+        topic: "Watching a Joe Rogan video on income inequality",
+        category: "Video/Discussion"
       },
       "1:40:44": {
-        topic: "Videos",
-        category: "Two twitch clips ",
+        topic: "Two twitch clips ",
+        category: "Videos"
       },
       "1:42:57": {
-        topic: "Hollow Knight",
-        category: "Playing Hollow Knight",
+        topic: "Playing Hollow Knight",
+        category: "Hollow Knight"
       },
       "1:47:27": {
-        topic: "Hollow Knight/Video",
-        category: "Listening to a Sam Harris debate about moral realism while playing Hollow Knight",
+        topic: "Listening to a Sam Harris debate about moral realism while playing Hollow Knight",
+        category: "Hollow Knight/Video"
       },
       "2:26:41": {
-        topic: "Hollow Knight",
-        category: "Playing Hollow Knight",
+        topic: "Playing Hollow Knight",
+        category: "Hollow Knight"
       },
       "2:29:35": {
-        topic: "Hollow Knight/Discussion",
-        category: "Talking about personal values/suicide while playing Hollow Knight",
+        topic: "Talking about personal values/suicide while playing Hollow Knight",
+        category: "Hollow Knight/Discussion"
       },
       "2:35:17": {
-        topic: "-",
-        category: "Break (Audio partially muted)",
+        topic: "Break (Audio partially muted)",
+        category: "-"
       },
       "2:45:21": {
-        topic: "Videos",
-        category: "Memes from the chat",
+        topic: "Memes from the chat",
+        category: "Videos"
       },
       "2:49:19": {
-        topic: "Hollow Knight",
-        category: "Playing Hollow Knight",
+        topic: "Playing Hollow Knight",
+        category: "Hollow Knight"
       },
       "2:54:19": {
-        topic: "Discussion",
-        category: "Talking about the technicalities of twitch chat and dgg chat",
+        topic: "Talking about the technicalities of twitch chat and dgg chat",
+        category: "Discussion"
       },
       "2:55:57": {
-        topic: "Hollow Knight/Discussion",
-        category: "More chat talk and Hollow Knight",
+        topic: "More chat talk and Hollow Knight",
+        category: "Hollow Knight/Discussion"
       },
       "2:57:45": {
-        topic: "Hollow Knight",
-        category: "Reading comments from chat and playing Hollow Knight",
+        topic: "Reading comments from chat and playing Hollow Knight",
+        category: "Hollow Knight"
       },
       "3:26:25": {
-        topic: "Hollow Knight/Discussion",
-        category: "Planning a trip to Finland ",
+        topic: "Planning a trip to Finland ",
+        category: "Hollow Knight/Discussion"
       },
       "3:37:12": {
-        topic: "Discussion",
-        category: "Reading a post from the Sam Harris subreddit",
+        topic: "Reading a post from the Sam Harris subreddit",
+        category: "Discussion"
       },
       "3:40:03": {
-        topic: "Discussion",
-        category: "Checking out how Andy Warski/Tonka Trucks are doing on Youtube",
+        topic: "Checking out how Andy Warski/Tonka Trucks are doing on Youtube",
+        category: "Discussion"
       },
       "3:46:38": {
-        topic: "Hollow Knight/Talking",
-        category: "Natsumii joins discord for a chat about games/twitch while playing Hollow Knight",
+        topic: "Natsumii joins discord for a chat about games/twitch while playing Hollow Knight",
+        category: "Hollow Knight/Talking"
       },
       "4:13:42": {
-        topic: "Hollow Knight/Discussion",
-        category: "More Brett Kavanaugh accusations",
+        topic: "More Brett Kavanaugh accusations",
+        category: "Hollow Knight/Discussion"
       },
       "4:17:58": {
-        topic: "Hollow Knight/Discussion",
-        category: "Discussion on Rape Culture",
+        topic: "Discussion on Rape Culture",
+        category: "Hollow Knight/Discussion"
       },
       "4:21:59": {
-        topic: "Hollow Knight",
-        category: "Reading comments from chat and playing Hollow Knight",
+        topic: "Reading comments from chat and playing Hollow Knight",
+        category: "Hollow Knight"
       },
       "4:43:02": {
-        topic: "Videos",
-        category: "Watching a video on NA cops ",
+        topic: "Watching a video on NA cops ",
+        category: "Videos"
       },
       "4:55:59": {
-        topic: "Videos/Discussion",
-        category: "Reddit post and on Jordon Peterson talking about women in the work force",
+        topic: "Reddit post and on Jordon Peterson talking about women in the work force",
+        category: "Videos/Discussion"
       },
       "5:09:02": {
-        topic: "-",
-        category: "Break ",
+        topic: "Break ",
+        category: "-"
       },
       "5:33:09": {
-        topic: "Videos",
-        category: "Livestreamfails clips",
+        topic: "Livestreamfails clips",
+        category: "Videos"
       },
       "5:40:09": {
-        topic: "Discussion",
-        category: "Tinder meta",
+        topic: "Tinder meta",
+        category: "Discussion"
       },
       "5:41:24": {
-        topic: "Discussion",
-        category: "Looking at a race realists reddit profile",
+        topic: "Looking at a race realists reddit profile",
+        category: "Discussion"
       },
       "5:45:23": {
-        topic: "Video",
-        category: "Black Ops meme",
+        topic: "Black Ops meme",
+        category: "Video"
       },
       "5:46:41": {
-        topic: "Discussion",
-        category: "Talking about instagram ",
+        topic: "Talking about instagram ",
+        category: "Discussion"
       },
       "5:49:18": {
-        topic: "-",
-        category: "Break",
+        topic: "Break",
+        category: "-"
       },
       "5:51:20": {
-        topic: "Hollow Knight",
-        category: "Playing Hollow Knight",
+        topic: "Playing Hollow Knight",
+        category: "Hollow Knight"
       },
       "6:06:26": {
-        topic: "Hollow Knight/Discussion",
-        category: "Talking about psychedelics/panic attacks/existence while playing Hollow Knight",
+        topic: "Talking about psychedelics/panic attacks/existence while playing Hollow Knight",
+        category: "Hollow Knight/Discussion"
       },
       "6:48:55": {
-        topic: "-",
-        category: "Break",
+        topic: "Break",
+        category: "-"
       },
       "6:54:23": {
-        topic: "-",
-        category: "Sorting out website server stuff",
+        topic: "Sorting out website server stuff",
+        category: "-"
       },
       "6:55:39": {
-        topic: "Hollow Knight",
-        category: "Playing Hollow Knight and reading messages from chat",
+        topic: "Playing Hollow Knight and reading messages from chat",
+        category: "Hollow Knight"
       },
       "7:10:15": {
-        topic: "Hollow Knight/Video",
-        category: "Listening to a Sargon video talking about UKIP and playing Hollow Knight",
+        topic: "Listening to a Sargon video talking about UKIP and playing Hollow Knight",
+        category: "Hollow Knight/Video"
       },
       "7:20:59": {
-        topic: "Discussion",
-        category: "Looking at Youtube analytics",
+        topic: "Looking at Youtube analytics",
+        category: "Discussion"
       },
       "7:26:14": {
-        topic: "Hollow Knight/Video",
-        category: "Listening to a Sargon video talking about UKIP and playing Hollow Knight",
+        topic: "Listening to a Sargon video talking about UKIP and playing Hollow Knight",
+        category: "Hollow Knight/Video"
       },
       "7:44:27": {
-        topic: "Hollow Knight",
-        category: "Playing Hollow Knight",
+        topic: "Playing Hollow Knight",
+        category: "Hollow Knight"
       }
     }
   },
@@ -2679,6 +2679,702 @@ const videoIds = {
       "4:04:43" : {
         topic: "CS:GO with MrMouton while talking with Devin",
         category: "CS:GO (Duo)"
+      }
+    }
+  },
+  319704423: {
+    date: "10/07/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Livestreamfails recap",
+        category: "Videos"
+      },
+      "0:08:17": {
+        topic: "Listening to some POGO songs",
+        category: "Music"
+      },
+      "0:11:48": {
+        topic: "Discussing the guy who roundhouse kicked an abortion protester",
+        category: "Video/Discussion"
+      },
+      "0:15:00": {
+        topic: "Talking about the supreme court/politics and baby boomers",
+        category: "Discussion"
+      },
+      "0:25:06": {
+        topic: "Destiny talking about his family politcal posts on facebook",
+        category: "Discussion"
+      },
+      "0:39:32": {
+        topic: "Playing Minecraft and reading comments/watching videos from chat",
+        category: "Minecraft"
+      },
+      "1:23:41": {
+        topic: "Watching a deleted scene from The Truman Show/boomerangs and banksy",
+        category: "Videos"
+      },
+      "1:29:20": {
+        topic: "Watching a video of Sargon debating someone on identity politics",
+        category: "Video/Discussion"
+      },
+      "1:49:03": {
+        topic: "Doing emails and playing minecraft intermittently",
+        category: "Minecraft/Discussion"
+      },
+      "2:37:15": {
+        topic: "Watching an old pro chess match",
+        category: "Videos"
+      },
+      "2:45:28": {
+        topic: "Listening to some music and talking about real drumming vs programmed drums",
+        category: "Music/Videos"
+      },
+      "3:14:25": {
+        topic: "Back to emails ",
+        category: "Discussion"
+      },
+      "3:32:37": {
+        topic: "Talking to Devin/Harkdan/MrMouton about twitchcon plans and other general chat",
+        category: "Minecraft/Discussion"
+      },
+      "4:42:41": {
+        topic: "Talking to Devin/Harkdan/MrMouton about adblock",
+        category: "Minecraft/Discussion"
+      },
+      "4:56:39": {
+        topic: "Talking to Devin/Harkdan ",
+        category: "Minecraft/Discussion"
+      },
+      "5:32:53": {
+        topic: "Talking to Devin about superheroes",
+        category: "Minecraft/Discussion"
+      },
+      "5:39:36": {
+        topic: "Devin talking to stream while Devin is AFK",
+        category: "Break"
+      },
+      "5:45:05": {
+        topic: "Talking to Devin about superheroes",
+        category: "Minecraft/Discussion"
+      },
+      "5:48:08": {
+        topic: "Talking to Devin about anime",
+        category: "Minecraft/Discussion"
+      },
+      "5:51:41": {
+        topic: "Playing minecraft and reading comments",
+        category: "Minecraft/Discussion"
+      },
+      "5:57:42": {
+        topic: "Talking to someone about political radicalization ",
+        category: "Minecraft/Discussion"
+      },
+      "6:37:34": {
+        topic: "Talking about fascism/nationalism/politics",
+        category: "Minecraft/Discussion"
+      },
+      "7:00:35": {
+        topic: "Talking about gender",
+        category: "Minecraft/Discussion"
+      },
+      "7:19:34": {
+        topic: "Talking about how to debate people who are dogmatic and boogie",
+        category: "Minecraft/Discussion"
+      },
+      "7:53:18": {
+        topic: "-",
+        categoryBreak: ""
+      },
+      "8:19:38": {
+        topic: "Talking to someone about veganism and consciousness",
+        category: "Minecraft/Discussion"
+      },
+      "8:46:51": {
+        topic: "Talking about philosophy",
+        category: "Minecraft/Discussion"
+      },
+      "9:34:13": {
+        topic: "Reading a twitter post about Incontrol breaking up with his wife",
+        category: "Discussion"
+      },
+      "9:37:53": {
+        topic: "Talking more about gender and transgender issues",
+        category: "Discussion"
+      },
+      "9:46:10": {
+        topic: "Stream muted",
+        category: "Minecraft"
+      },
+      "9:54:26": {
+        topic: "Playing minecraft and reading comments from chat",
+        category: "Minecraft/Discussion"
+      },
+      "12:37:42": {
+        topic: "Talking about music and playing mincraft",
+        category: "Minecraft/Music"
+      },
+      "13:32:46": {
+        topic: "Playing minecraft and reading comments from chat (Audio partially muted due to copyright)",
+        category: "Minecraft/Discussion"
+      }
+    }
+  },
+  320166883: {
+    date: "10/08/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "-",
+        category: "Break"
+      },
+      "0:19:47": {
+        topic: "Trying to make sense of some streaming stats",
+        category: "Discussion"
+      },
+      "0:27:56": {
+        topic: "Trying to fix the overlay and another break",
+        category: "Break"
+      },
+      "0:41:08": {
+        topic: "Destiny talking about his hair fungus",
+        category: "Discussion"
+      },
+      "0:47:55": {
+        topic: "Talking about the GrossGore drama",
+        category: "Discussion"
+      },
+      "0:54:03": {
+        topic: "Talking to a NoBS tier moron about politics/trump/thought processes",
+        category: "Debate"
+      },
+      "1:43:48": {
+        topic: "Breaking down the previous converstation",
+        category: "Discussion"
+      },
+      "1:55:31": {
+        topic: "Getting baited into a debate by exskillsme",
+        category: "Debate"
+      },
+      "2:37:33": {
+        topic: "Doing emails and reading comments from chat",
+        category: "Discussion"
+      },
+      "2:52:22": {
+        topic: "Watching and talking a Noam Chomsky video on liberalism and talking about it",
+        category: "Discussion"
+      },
+      "2:56:18": {
+        topic: "watching a crowder/prager u video on columbus day",
+        category: "Video/Discussion"
+      },
+      "3:03:31": {
+        topic: "Mr Mouton joins the call",
+        category: "Discussion"
+      },
+      "3:10:54": {
+        topic: "Talking about Ninja and Myths viewship",
+        category: "Discussion"
+      },
+      "3:16:21": {
+        topic: "Doing reddit and stream housekeeping ",
+        category: "Discussion"
+      },
+      "3:27:53": {
+        topic: "Back to emails and talking to MrMouton",
+        category: "Discussion"
+      },
+      "3:44:58": {
+        topic: "Looking at backpacks and wallets",
+        category: "Discussion"
+      },
+      "3:47:31": {
+        topic: "Back to emails and talking to MrMouton",
+        category: "Discussion"
+      },
+      "4:58:37": {
+        topic: "-",
+        category: "Break"
+      },
+      "5:13:07": {
+        topic: "Chess with MrMouton",
+        category: "Chess"
+      },
+      "5:45:23": {
+        topic: "Watching meme videos",
+        category: "Videos"
+      },
+      "5:55:01": {
+        topic: "Sponsored Assassin's Creed Odyssey gameplay",
+        category: "Assassin's Creed Odyssey"
+      },
+      "7:02:03": {
+        topic: "Watching more meme videos",
+        category: "Videos"
+      },
+      "7:19:31": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      }
+    }
+  },
+  320546229: {
+    date: "10/09/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing duos with Nathan",
+        category: "Starcraft 2 (Duo)"
+      },
+      "0:29:32": {
+        topic: "Talking to another trump support from reddit",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:57:30": {
+        topic: "Talking to Hasan Piker (from The Young Turks) about general  thoughts about politics",
+        category: "Discussion"
+      },
+      "2:37:47": {
+        topic: "Talking about \"accelrationism\" ",
+        category: "Discussion"
+      },
+      "2:46:14": {
+        topic: "Talking about right wing/centerist Youtubers",
+        category: "Discussion"
+      },
+      "3:19:40": {
+        topic: "Talking about the political demographics of twitch",
+        category: "Discussion"
+      },
+      "3:21:35": {
+        topic: "Why does Destiny debate and talking about voting",
+        category: "Discussion"
+      },
+      "3:24:18": {
+        topic: "Talking about Dave Rubin",
+        category: "Discussion"
+      },
+      "3:25:50": {
+        topic: "Talking about a previous debate Destiny had",
+        category: "Discussion"
+      },
+      "3:27:00": {
+        topic: "Talking about Trump and the Republican party",
+        category: "Discussion"
+      },
+      "3:38:07": {
+        topic: "-",
+        category: "Break"
+      },
+      "3:45:18": {
+        topic: "Talking about American Libertarianism, Joe Rogan and Dave Rubin",
+        category: "Discussion"
+      },
+      "3:56:34": {
+        topic: "Talking about Dave Rubin on free speech",
+        category: "Discussion"
+      },
+      "4:00:47": {
+        topic: "Hasan talking about debating Charlie Kirk",
+        category: "Discussion"
+      },
+      "4:35:38": {
+        topic: "Conversation with Hasan finishes and Destiny tries fixing his overlay again",
+        category: "-"
+      },
+      "4:39:31": {
+        topic: "Reading a reddit post about the Reckful drama",
+        category: "Reddit"
+      },
+      "4:40:58": {
+        topic: "Back to fixing the overlay",
+        category: "-"
+      },
+      "4:45:46": {
+        topic: "Looking for car audio stuff",
+        category: "Discussion"
+      },
+      "4:58:16": {
+        topic: "Playing Minecraft",
+        category: "Minecraft"
+      },
+      "5:02:36": {
+        topic: "Watching memes and reading reddit",
+        category: "Memes"
+      },
+      "5:38:38": {
+        topic: "-",
+        category: "Break"
+      },
+      "5:44:26": {
+        topic: "Doing research on Tarrifs for the next debate with the trump supporter from reddit (some audio is muted due to copyright)",
+        category: "Research"
+      },
+      "9:29:58": {
+        topic: "Watching memes and looking at Lilys new hair",
+        category: "Memes"
+      },
+      "9:37:40": {
+        topic: "Talking about Runescape",
+        category: "Discussion"
+      },
+      "9:53:00": {
+        topic: "Watching an at&t ad and doing stream offstream",
+        category: "Video"
+      },
+      "9:59:14": {
+        topic: "Watching a video on the Google Pixel 3",
+        category: "Video"
+      },
+      "10:06:49": {
+        topic: "-",
+        category: "Break"
+      },
+      "10:11:04": {
+        topic: "Playing CS:GO solo",
+        category: "CS:GO"
+      }
+    }
+  },
+  320928615: {
+    date: "10/10/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Talking to Reckful about slavery and determinism/free will",
+        category: "Discussion"
+      },
+      "0:09:51": {
+        topic: "Talking  about Native Americans",
+        category: "Discussion"
+      },
+      "0:14:54": {
+        topic: "Talking about games and skill in games",
+        category: "Discussion"
+      },
+      "0:17:03": {
+        topic: "Talking about freedom Indices",
+        category: "Discussion"
+      },
+      "0:21:27": {
+        topic: "Talking about the economy and stocks",
+        category: "Discussion"
+      },
+      "0:24:25": {
+        topic: "Talking about vitamin D and vitamin supplements",
+        category: "Discussion"
+      },
+      "0:26:37": {
+        topic: "Talking about taking care when you take advice from someone",
+        category: "Discussion"
+      },
+      "0:30:22": {
+        topic: "Reckful talking about his mood and about depression ",
+        category: "Discussion"
+      },
+      "0:42:41": {
+        topic: "Talking about the Jewish Question",
+        category: "Discussion"
+      },
+      "0:44:24": {
+        topic: "Talking about stocks again",
+        category: "Discussion"
+      },
+      "0:56:32": {
+        topic: "Playing SC2 and talking about stocks again",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:13:36": {
+        topic: "Reckful playing piano",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:18:03": {
+        topic: "Talking about RTS (AOE/SC) games",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:24:06": {
+        topic: "Talking about poker",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:33:51": {
+        topic: "Talking about Keto and exercise",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:42:27": {
+        topic: "Talking about SC2 and WoW",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:51:44": {
+        topic: "Reckful puts on a redneck accent and starts talking about gun control",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:55:04": {
+        topic: "Destiny concentrates on his game",
+        category: "Starcraft 2/Discussion"
+      },
+      "1:59:26": {
+        topic: "A discussion on people using words to be pretentious",
+        category: "Discussion"
+      },
+      "2:44:35": {
+        topic: "Reckful gets a power cut",
+        category: "Discussion"
+      },
+      "2:48:44": {
+        topic: "Talking about games and reward systems",
+        category: "Discussion"
+      },
+      "3:13:47": {
+        topic: "Talking about when fans come up to you at a public event",
+        category: "Minecraft/Discussion"
+      },
+      "3:16:52": {
+        topic: "Talking about louis CK and personal preferences ",
+        category: "Minecraft/Discussion"
+      },
+      "3:18:43": {
+        topic: "Finding a topic to talk about",
+        category: "Minecraft/Discussion"
+      },
+      "3:27:28": {
+        topic: "Talking about MMORPGs",
+        category: "Minecraft/Discussion"
+      },
+      "3:38:33": {
+        topic: "Talking about GFX cards and building old PCs",
+        category: "Minecraft/Discussion"
+      },
+      "3:41:00": {
+        topic: "Talking about the stock market drop and online video streaming services",
+        category: "Minecraft/Discussion"
+      },
+      "3:47:02": {
+        topic: "Talking about how a lot of big companies don't utilise data properly ",
+        category: "Minecraft/Discussion"
+      },
+      "3:52:09": {
+        topic: "Talking about global warming and nuclear weapons",
+        category: "Minecraft/Discussion"
+      },
+      "3:58:12": {
+        topic: "Talking about amazon echo",
+        category: "Minecraft/Discussion"
+      },
+      "3:59:50": {
+        topic: "Talking about if doing a good thing just for personal gain is good or bad",
+        category: "Minecraft/Discussion"
+      },
+      "4:01:24": {
+        topic: "Talking about morality and what people want from their lives",
+        category: "Minecraft/Discussion"
+      },
+      "4:09:37": {
+        topic: "Talking about life on Mars",
+        category: "Minecraft/Discussion"
+      },
+      "4:11:19": {
+        topic: "Back to talking about what you want and enjoy from your life",
+        category: "Minecraft/Discussion"
+      },
+      "4:15:16": {
+        topic: "Talking about GFX cards and streaming off it and streaming in general",
+        category: "Minecraft/Discussion"
+      },
+      "4:27:29": {
+        topic: "Talking about instagram",
+        category: "Minecraft/Discussion"
+      },
+      "4:32:10": {
+        topic: "Talking about Reckfuls game and why he is making it",
+        category: "Minecraft/Discussion"
+      },
+      "4:36:16": {
+        topic: "Talking about instagram and snapchat ",
+        category: "Minecraft/Discussion"
+      },
+      "4:51:13": {
+        topic: "Talking about headphones",
+        category: "Minecraft/Discussion"
+      },
+      "5:01:49": {
+        topic: "Destiny goes afk",
+        category: "Break"
+      },
+      "5:07:24": {
+        topic: "Watching clips from livestreamfails",
+        category: "Videos"
+      },
+      "5:12:05": {
+        topic: "Watching a video on global warming",
+        category: "Minecraft/Discussion"
+      },
+      "5:13:40": {
+        topic: "Talking about the guy who destiny debated on tariffs and tariffs in general",
+        category: "Minecraft/Discussion"
+      },
+      "5:26:37": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft/Discussion"
+      },
+      "6:13:09": {
+        topic: "Talking about how Republicans vicitimise themselves",
+        category: "Minecraft/Discussion"
+      },
+      "6:16:42": {
+        topic: "Talking about exskillsme and his debate style",
+        category: "Minecraft/Discussion"
+      },
+      "6:19:42": {
+        topic: "Talking about the processes in the supreme court and lobbying in the USA",
+        category: "Minecraft/Discussion"
+      },
+      "6:47:25": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft/Discussion"
+      }
+    }
+  },
+  321076204: {
+    date: "10/11/2018",
+    timestamps: {
+      "4:47:05": {
+        topic: "Talking to Devin on his stream about moving to Seattle, twitch, investment and other general life things",
+        category: "Discussion (off stream)"
+      }
+    }
+  },
+  321366694: {
+    date: "10/11/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Setting up for the debate",
+        category: "-"
+      },
+      "0:09:29": {
+        topic: "Round 2 with the tarriff guy from the other day",
+        category: "Debate"
+      },
+      "1:44:02": {
+        topic: "Going over articles about tarrifs after the debate",
+        category: "Discussion"
+      },
+      "2:09:40": {
+        topic: "Harkdan joins to talk about rent control",
+        category: "Discussion"
+      },
+      "2:22:41": {
+        topic: "Commrade Irishladdie joins to talk to Harkdan about rent control ",
+        category: "Debate"
+      },
+      "2:49:38": {
+        topic: "Topic changes to labour and labour theory of value and aquiring wealth",
+        category: "Debate"
+      },
+      "3:01:37": {
+        topic: "Talking about how and why the revolution will happen",
+        category: "Debate"
+      },
+      "3:05:04": {
+        topic: "Talking about annihilation through labour and consumerism",
+        category: "Debate"
+      },
+      "3:09:32": {
+        topic: "Talking about liberal arts vs STEM and happieness",
+        category: "Debate"
+      },
+      "3:23:01": {
+        topic: "Devin asks Irishladdie how can he criticise capitalism when everything he has is attributed to it",
+        category: "Debate"
+      },
+      "3:27:39": {
+        topic: "Devin asks can Irishladdies system ever actually be implemented and how society is on the verge of collapse",
+        category: "Debate"
+      },
+      "4:00:03": {
+        topic: "Do all cops contribute to a system of poor moral fibre",
+        category: "Debate"
+      },
+      "4:11:04": {
+        topic: "Irishladdie leaves, breaking down the debate with Harkdan, Mouton and Stalled.",
+        category: "Discussion"
+      },
+      "4:20:17": {
+        topic: "Playing Blackout for the first time with MrMouton",
+        category: "COD:BO  Blackout (Duo)"
+      }
+    }
+  },
+  321788958: {
+    date: "10/12/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing blackout duos with MrMouton",
+        category: "COD:BO Blackout (Duo)"
+      },
+      "5:17:54": {
+        topic: "Playing Blackout solo",
+        category: "COD:BO  Blackout "
+      }
+    }
+  },
+  321957547: {
+    date: "10/13/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Watching videos from reddit and chat",
+        category: "Videos"
+      },
+      "0:38:44": {
+        topic: "Playing minecraft and reading comments from chat",
+        category: "Minecraft/Discussion"
+      },
+      "2:06:20": {
+        topic: "Talking to someone about agnosticism",
+        category: "Debate"
+      },
+      "2:22:42": {
+        topic: "Afterthought about agnosticism and knowledge",
+        category: "Minecraft"
+      },
+      "2:34:07": {
+        topic: "Listening to a video on metaphysics while playing Minecraft",
+        category: "Minecraft/Discussion"
+      },
+      "2:50:55": {
+        topic: "Playing minecraft and reading comments from chat",
+        category: "Minecraft/Discussion"
+      },
+      "2:53:54": {
+        topic: "Watching a clip from Louie",
+        category: "Video"
+      },
+      "2:58:44": {
+        topic: "Playing minecraft and reading comments from chat",
+        category: "Minecraft/Discussion"
+      },
+      "4:35:03": {
+        topic: "Watching Kanye at the Whitehouse talking to Trump",
+        category: "Minecraft/Video"
+      },
+      "5:04:14": {
+        topic: "Playing minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "5:05:45": {
+        topic: "Listing to a Jordan Peterson talking about being a Christian and the resurrection ",
+        category: "Minecraft/Video"
+      },
+      "5:12:57": {
+        topic: "Playing minecraft and reading comments from chat",
+        category: "Minecraft/Discussion"
+      },
+      "6:35:57": {
+        topic: "-",
+        category: "Break"
+      },
+      "6:43:13": {
+        topic: "Talking about ridge wallets and backpacks",
+        category: "Discussion"
+      },
+      "6:48:40": {
+        topic: "Playing blackout solo",
+        category: "COD:BO Blackout"
       }
     }
   }
