@@ -3377,6 +3377,943 @@ const videoIds = {
         category: "COD:BO Blackout"
       }
     }
+  },
+  322442951: {
+    date: "10/14/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "0:56:58": {
+        topic: "Playing minecraft and listening to videos about consciousness",
+        category: "Minecraft/Discussion"
+      },
+      "1:18:35": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "1:23:56": {
+        topic: "Discussing PUBG vs Blackout ",
+        category: "Discussion"
+      },
+      "1:27:32": {
+        topic: "Reading and discussing an article about obesity",
+        category: "Discussion"
+      },
+      "1:30:02": {
+        topic: "Playing Blackout solo",
+        category: "COD:BO Blackout"
+      },
+      "3:01:12": {
+        topic: "Playing Blackout solo and talking to someone about the discord and discord moderation",
+        category: "COD:BO Blackout/Discussion"
+      },
+      "3:26:40": {
+        topic: "Playing Blackout solo",
+        category: "COD:BO Blackout"
+      },
+      "3:47:53": {
+        topic: "-",
+        category: "Break"
+      },
+      "3:52:01": {
+        topic: "Playing Blackout solo",
+        category: "COD:BO Blackout"
+      },
+      "4:04:08": {
+        topic: "Watching and talking about Steven Crowders hot takes",
+        category: "Videos"
+      },
+      "4:08:29": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "4:29:40": {
+        topic: "Watching Ninja playing Fortnite with Ellen",
+        category: "Videos"
+      },
+      "4:37:19": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "6:12:45": {
+        topic: "Listening to a few songs from chat and talking about music in general",
+        category: "Music"
+      },
+      "6:28:39": {
+        topic: "Break to get a hot choccy",
+        category: "Break"
+      },
+      "6:50:35": {
+        topic: "Talking about Discord and monetizing it",
+        category: "Discussion"
+      },
+      "6:54:29": {
+        topic: "Talking to Devin about moving and games and playing Blackout",
+        category: "COD:BO Blackout"
+      },
+      "8:15:01": {
+        topic: "Talking to Mitch Jones about games and streaming",
+        category: "COD:BO Blackout"
+      },
+      "8:25:40": {
+        topic: "Playing Blackout solo",
+        category: "COD:BO Blackout"
+      },
+      "8:44:57": {
+        topic: "Playing Blackout duos with Pokelawls",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "9:13:44": {
+        topic: "-",
+        category: "Break"
+      },
+      "9:16:53": {
+        topic: "Watching videos while Pokelawls finishes his game",
+        category: "Videos"
+      },
+      "9:21:41": {
+        topic: "Playing Blackout duos with Pokelawls",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "9:59:49": {
+        topic: "MrMouton makes his grand entrance",
+        category: "Break"
+      },
+      "10:04:58": {
+        topic: "Duos with MrMouton (stream cuts out due to a power cut)",
+        category: "COD:BO Blackout (DUO)"
+      }
+    }
+  },
+  322846154: {
+    date: "10/15/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Watching a clip from livestreamfail",
+        category: "Videos"
+      },
+      "0:06:00": {
+        topic: "Listening to a 60 minutes interview with Trump while playing Minecraft",
+        category: "Minecraft/Video"
+      },
+      "0:36:44": {
+        topic: "Playing Minecraft and reading comments on chat",
+        category: "Minecraft"
+      },
+      "0:51:57": {
+        topic: "Listening to a video about freewill while playing Minecraft",
+        category: "Minecraft/Video"
+      },
+      "0:58:28": {
+        topic: "Listening a video about Steins gate while playing Minecraft",
+        category: "Minecraft/Video"
+      },
+      "1:07:00": {
+        topic: "MrMouton joins the call to play Blackout",
+        category: "Break"
+      },
+      "1:12:30": {
+        topic: "Duos with MrMouton ",
+        category: "COD:BO Blackout (DUO)"
+      }
+    }
+  },
+  322901905: {
+    date: "10/15/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Setting up stream after power cut and one meme video",
+        category: "Video"
+      },
+      "0:05:13": {
+        topic: "-",
+        category: "Break"
+      },
+      "0:08:48": {
+        topic: "Watching videos from Livestreamfail",
+        category: "Videos"
+      },
+      "0:12:40": {
+        topic: "Watching MrMouton play his solo game",
+        category: "Video"
+      },
+      "0:19:58": {
+        topic: "Setting up streamlabs bot",
+        category: "Break"
+      },
+      "0:24:39": {
+        topic: "Duos with MrMouton ",
+        category: "COD:BO Blackout (DUO)"
+      }
+    }
+  },
+  322914247: {
+    date: "10/15/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Duos with MrMouton ",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "1:38:17": {
+        topic: "Quick game of chess with MrMouton",
+        category: "Chess"
+      },
+      "1:41:32": {
+        topic: "Duos with MrMouton ",
+        category: "COD:BO Blackout (DUO)"
+      }
+    }
+  },
+  323065388: {
+    date: "10/15/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Watching MrMouton finish his solo game and talking to Harkdan and Mouton about celebrities streaming",
+        category: "Video"
+      },
+      "0:11:23": {
+        topic: "Playing with MrMouton and still talking about celebs streaming",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "0:17:18": {
+        topic: "Watching Ninja play fornite with Ellen and Conan O'Brien playing Tomb Raider",
+        category: "Video"
+      },
+      "0:30:27": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (DUO)"
+      }
+    }
+  },
+  323301582: {
+    date: "10/16/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Sending an email to MrMouton about the Dr.Disrespect Blackout tournament",
+        category: "Break"
+      },
+      "0:06:13": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "1:21:28": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "1:30:53": {
+        topic: "Playing Minecraft (Audio muted due to copyright)",
+        category: "Minecraft"
+      },
+      "1:43:44": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "1:49:32": {
+        topic: "Playing Minecraft (Audio muted due to copyright)",
+        category: "Minecraft"
+      },
+      "2:04:13": {
+        topic: "Listening to a Ben Shapiro video about going to vote and playing Minecraft",
+        category: "Minecraft/video"
+      },
+      "2:12:37": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "2:23:02": {
+        topic: "Listening to a video about acne and playing Minecraft",
+        category: "Minecraft/video"
+      },
+      "2:26:29": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      }
+    }
+  },
+  323416273: {
+    date: "10/16/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Sorting out stream stuff",
+        category: "-"
+      },
+      "0:11:41": {
+        topic: "Talking about women in music and Rachmaninoff",
+        category: "Music"
+      },
+      "0:32:06": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "0:57:58": {
+        topic: "Looking at instagram stuff",
+        category: "Break"
+      },
+      "1:18:17": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "1:41:03": {
+        topic: "-",
+        category: "Break"
+      },
+      "1:44:25": {
+        topic: "Watching videos from livestreamfail and more instagram stuff",
+        category: "Videos"
+      },
+      "1:49:02": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "4:29:13": {
+        topic: "Video from livestreamfail",
+        category: "Videos"
+      },
+      "4:30:17": {
+        topic: "Video about some old cat",
+        category: "Videos"
+      },
+      "4:33:17": {
+        topic: "Malcom X interview video",
+        category: "Videos"
+      },
+      "4:40:45": {
+        topic: "2 Videos from reddit",
+        category: "Videos"
+      },
+      "4:43:46": {
+        topic: "CSGO compilaiton about video M0e and Steel",
+        category: "Videos"
+      },
+      "4:50:33": {
+        topic: "Ben Shapiro at a college campus",
+        category: "Videos"
+      },
+      "4:57:14": {
+        topic: "Trailer of I Am Not Your Negro",
+        category: "Videos"
+      },
+      "4:58:40": {
+        topic: "Meme video from twitter",
+        category: "Videos"
+      },
+      "5:00:04": {
+        topic: "Reading Blackout patch notes and trying to get more performance out of the game",
+        category: "-"
+      }
+    }
+  },
+  323697542: {
+    date: "10/17/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (DUO)"
+      },
+      "1:02:05": {
+        topic: "Reading Nick Fuentes twitter",
+        category: "Twitter"
+      },
+      "1:04:59": {
+        topic: "Looking up pollution data",
+        category: "Discussion"
+      },
+      "1:06:00": {
+        topic: "NRA and gun control",
+        category: "Discussion"
+      },
+      "1:12:35": {
+        topic: "Clips from Livestreamfail",
+        category: "Videos"
+      },
+      "1:16:12": {
+        topic: "Has PUBG been killed by COD",
+        category: "Discussion"
+      },
+      "1:18:24": {
+        topic: "Setting up for an interview with for an australian college radio show",
+        category: "Interview"
+      },
+      "1:21:14": {
+        topic: "Talking about the early days of Justin.tv/Twitch",
+        category: "Interview"
+      },
+      "1:23:28": {
+        topic: "What is the hardest part of streaming",
+        category: "Interview"
+      },
+      "1:24:36": {
+        topic: "How have you kept streaming fresh for yourself",
+        category: "Interview"
+      },
+      "1:26:25": {
+        topic: "Goals for streaming",
+        category: "Interview"
+      },
+      "1:27:22": {
+        topic: "esports and sc2",
+        category: "Interview"
+      },
+      "1:29:41": {
+        topic: "College and music",
+        category: "Interview"
+      },
+      "1:31:36": {
+        topic: "How do you network so well",
+        category: "Interview"
+      },
+      "1:33:11": {
+        topic: "Do you find any of your debates useful or fruitful and online harassment",
+        category: "Interview"
+      },
+      "1:38:19": {
+        topic: "Worst communities you talked to",
+        category: "Interview"
+      },
+      "1:39:15": {
+        topic: "Personal philosophy and how you come to conclusions",
+        category: "Interview"
+      },
+      "1:50:55": {
+        topic: "Why do people fall to the alt right",
+        category: "Interview"
+      },
+      "1:54:49": {
+        topic: "Sargon and his new Gamergate 2.0",
+        category: "Interview"
+      },
+      "1:57:27": {
+        topic: "Do you regret any of the debates",
+        category: "Interview"
+      },
+      "1:58:20": {
+        topic: "Why do you think people downplayed jontron ",
+        category: "Interview"
+      },
+      "2:00:27": {
+        topic: "Hypothetical question about morality",
+        category: "Interview"
+      },
+      "2:05:08": {
+        topic: "If you had 3 wishes what would they be",
+        category: "Interview"
+      },
+      "2:06:14": {
+        topic: "How have you dealt with your efame and  have you had any bad fan interactions",
+        category: "Interview"
+      },
+      "2:07:41": {
+        topic: "Biggest fear in life",
+        category: "Interview"
+      },
+      "2:08:04": {
+        topic: "Another hypothetical question",
+        category: "Interview"
+      },
+      "2:12:21": {
+        topic: "How do you deal with people who have extreme views",
+        category: "Interview"
+      },
+      "2:13:05": {
+        topic: "Watching some meme videos",
+        category: "Videos"
+      },
+      "2:18:57": {
+        topic: "Listening to music and a music theory video",
+        category: "Music"
+      },
+      "2:41:59": {
+        topic: "-",
+        category: "Break"
+      },
+      "2:51:48": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "3:30:36": {
+        topic: "Listening to a Dave Rubin interview with an economist while playing Minecraft",
+        category: "Minecraft/Video"
+      },
+      "3:49:39": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "5:15:31": {
+        topic: "Playing Blackout solo and talking to Jayden (yourprincesslol)",
+        category: "COD:BO Blackout "
+      }
+    }
+  },
+  323957860: {
+    date: "10/17/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Practicing for the Blackout tournament with MrMouton",
+        category: "COD:BO Blackout (Duo)"
+      }
+    }
+  },
+  324067744: {
+    date: "10/18/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Talking to MrMouton about the Blackout tournament",
+        category: "Minecraft"
+      },
+      "0:12:58": {
+        topic: "Practicing for the Blackout tournament with MrMouton",
+        category: "COD:BO Blackout (Duo)"
+      },
+      "1:22:05": {
+        topic: "Watching videos from livestream fails and Rimworld 1.0 trailer",
+        category: "Videos"
+      },
+      "1:27:57": {
+        topic: "Playing the mutliplayer part of COD",
+        category: "COD:BO Multiplayer"
+      },
+      "1:38:14": {
+        topic: "Watching videos from /r/videos",
+        category: "Videos"
+      },
+      "1:45:27": {
+        topic: "Listening to Ted Cruz vs Beto O'Rouke supporters while playing Minecraft",
+        category: "Minecraft/Video"
+      },
+      "1:55:14": {
+        topic: "Talking about white privilege and playing Minecraft",
+        category: "Minecraft/Discussion"
+      },
+      "1:57:25": {
+        topic: "A vice video about a fake restaurant and playing Minecraft",
+        category: "Minecraft/Video"
+      },
+      "2:19:54": {
+        topic: "Playing Minecraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "3:26:06": {
+        topic: "Looking at investment/finance stuff",
+        category: "Minecraft/Discussion"
+      },
+      "3:46:22": {
+        topic: "Talking about employee/customer expectation and casino stuff",
+        category: "Minecraft/Discussion"
+      },
+      "3:56:12": {
+        topic: "Steven Crowder/Ben Shaprio talking about Socialism",
+        category: "Minecraft/Video"
+      },
+      "3:58:20": {
+        topic: "Talking about managers at work",
+        category: "Minecraft/Discussion"
+      },
+      "4:02:16": {
+        topic: "Steven Crowder/Ben Shaprio talking about Socialism",
+        category: "Minecraft/Video"
+      },
+      "4:28:30": {
+        topic: "Looking at computer components for new pc",
+        category: "Discussion"
+      },
+      "4:36:12": {
+        topic: "Looking at the COD/Fortnite/PUBG viewer numbers on Twitch",
+        category: "Discussion"
+      }
+    }
+  },
+  324290083: {
+    date: "10/18/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Practicing for the Blackout tournament with MrMouton",
+        category: "COD:BO Blackout (Duo)"
+      }
+    }
+  },
+  324362336: {
+    date: "10/18/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing in the Codered Tournament with MrMouton",
+        category: "COD:BO Blackout (Duo)"
+      }
+    }
+  },
+  324442809: {
+    date: "10/19/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Reading a livestreamfails post ",
+        category: "Reddit"
+      },
+      "0:02:06": {
+        topic: "Playing Chess with MrMouton",
+        category: "Chess"
+      },
+      "0:11:01": {
+        topic: "Videos from livestreamfails and chat",
+        category: "Videos"
+      },
+      "0:12:59": {
+        topic: "Setting up for Zombies with MrMouton",
+        category: "Break"
+      }
+    }
+  },
+  324448939: {
+    date: "10/19/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing Zombie mode with Black ops",
+        category: "COD:BO 4 Zombies"
+      },
+      "0:04:27": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (Duo)"
+      },
+      "0:15:55": {
+        topic: "Talking about what being edgy means",
+        category: "Discussion"
+      },
+      "0:18:00": {
+        topic: "New Bizonacci video",
+        category: "Video"
+      },
+      "0:20:42": {
+        topic: "Clips from Livestreamfails",
+        category: "Videos"
+      },
+      "0:24:29": {
+        topic: "Talking about what being edgy means",
+        category: "Discussion"
+      },
+      "0:27:01": {
+        topic: "Playing mincraft and talking about art",
+        category: "Minecraft"
+      },
+      "0:30:11": {
+        topic: "Playing mincraft and reading comments from chat",
+        category: "Minecraft"
+      },
+      "0:40:35": {
+        topic: "Talking about age of consent and playing Minecraft",
+        category: "Minecraft/Discussion"
+      },
+      "0:50:09": {
+        topic: "Doing the Minecraft endgame content",
+        category: "Minecraft"
+      },
+      "3:35:52": {
+        topic: "-",
+        category: "Break"
+      },
+      "3:43:28": {
+        topic: "Looking at mods for the new Minecraft server",
+        category: "Discussion"
+      },
+      "4:03:51": {
+        topic: "Clips from Livestreamfails",
+        category: "Videos"
+      },
+      "4:11:00": {
+        topic: "Looking at mods for the new Minecraft server",
+        category: "Discussion"
+      },
+      "4:16:41": {
+        topic: "Watching a short film",
+        category: "Video"
+      },
+      "4:28:07": {
+        topic: "Reddit post about Jordon Peterson",
+        category: "Reddit"
+      },
+      "4:31:53": {
+        topic: "Listening to a Republican political ad",
+        category: "Video"
+      },
+      "4:32:55": {
+        topic: "Reddit post about Jordon Peterson",
+        category: "Reddit"
+      },
+      "4:34:47": {
+        topic: "Videos from reddit",
+        category: "Video"
+      },
+      "4:58:26": {
+        topic: "Setting up the new Minecraft server",
+        category: "Minecraft"
+      },
+      "5:23:24": {
+        topic: "Watching a Steel/M0e CSGO video",
+        category: "Video"
+      }
+    }
+  },
+  324788867: {
+    date: "10/19/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Playing Blackout with MrMouton",
+        category: "COD:BO Blackout (Duo)"
+      },
+      "1:39:53": {
+        topic: "Talking about rent control and housing",
+        category: "Discussion"
+      },
+      "1:51:49": {
+        topic: "Watching a Newt Gingrich video and talking about politics",
+        category: "Discussion/Video"
+      },
+      "2:20:00": {
+        topic: "-",
+        category: "Break"
+      },
+      "2:23:17": {
+        topic: "Talking about caffeine, nutrition and semen",
+        category: "Discussion"
+      },
+      "2:56:38": {
+        topic: "Reading a reddit post",
+        category: "Reddit"
+      },
+      "2:59:21": {
+        topic: "Playing mutliplayer solo",
+        category: "COD:BO 4 Multiplayer"
+      },
+      "3:21:31": {
+        topic: "Watching a few videos from Youtube",
+        category: "Videos"
+      },
+      "3:39:16": {
+        topic: "Listening to Trump round table and playing COD multiplayer",
+        category: "Video/COD: BO"
+      },
+      "4:39:56": {
+        topic: "Clips from livestreamfail",
+        category: "Videos"
+      },
+      "4:43:45": {
+        topic: "Talking about stats and PUBG viewership",
+        category: "Discussion"
+      },
+      "5:02:56": {
+        topic: "Talking about minecraft server and other computer stuff",
+        category: "Discussion"
+      },
+      "5:21:39": {
+        topic: "People dancing and lifting up chairs",
+        category: "Videos"
+      }
+    }
+  },
+  324942674: {
+    date: "10/20/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Watching videos from reddit",
+        category: "Videos"
+      },
+      "0:23:17": {
+        topic: "Trying to help Trihex with his audio problems",
+        category: "Discussion"
+      },
+      "1:13:12": {
+        topic: "Watching videos from Youtube and chat",
+        category: "Videos"
+      },
+      "1:53:08": {
+        topic: "Debate about skyrim and witcher ",
+        category: "Debate"
+      },
+      "1:55:23": {
+        topic: "Postmodern analysis of sonic adventure 2",
+        category: "Videos"
+      },
+      "2:06:51": {
+        topic: "Playing on the new modded Mincraft server and reading comments from chat",
+        category: "Minecraft"
+      },
+      "3:30:50": {
+        topic: "Talking to ILiedAboutCake and MrMouton about Moutons new pc build while playing Minecraft",
+        category: "Minecraft/Discussion"
+      },
+      "3:50:36": {
+        topic: "Watching a video about 9900k processor",
+        category: "Videos"
+      },
+      "3:57:43": {
+        topic: "Playing on the new modded Mincraft server and reading comments from chat",
+        category: "Minecraft"
+      },
+      "4:23:10": {
+        topic: "Chess vs MrMouton",
+        category: "Chess"
+      },
+      "4:50:19": {
+        topic: "Playing multiplayer with MrMouton",
+        category: "COD:BO 4 Multiplayer (Duo)"
+      }
+    }
+  },
+  325241918: {
+    date: "10/20/2018",
+    timestamps: {
+      "0:00:00": {
+        topic: "Videos from Livestreamfails",
+        category: "Videos"
+      },
+      "0:08:42": {
+        topic: "Politcal ad from a US Democrat congressman",
+        category: "Videos"
+      },
+      "0:15:44": {
+        topic: "Helping MrMouton with his new PC build",
+        category: "Disucussion"
+      },
+      "0:30:40": {
+        topic: "Video on the Syrian conflict and the gas attacks done by the government",
+        category: "Videos"
+      },
+      "0:41:53": {
+        topic: "Videos about cinemasins",
+        category: "Videos"
+      },
+      "0:50:52": {
+        topic: "Listening to a track someone posted",
+        category: "Music"
+      },
+      "0:55:22": {
+        topic: "Reading an article about immigrants from Honduras",
+        category: "Article"
+      },
+      "0:58:52": {
+        topic: "LOTR/gnome meme",
+        category: "Videos"
+      },
+      "1:00:00": {
+        topic: "Stephen Colbert and James Franco talking about LOTR",
+        category: "Videos"
+      },
+      "1:03:02": {
+        topic: "Talking about SMART missile treaty ",
+        category: "Discussion"
+      },
+      "1:04:10": {
+        topic: "Shit memes from chat",
+        category: "Videos"
+      },
+      "1:05:34": {
+        topic: "Joe Rogan talking to gavin mcinnes about his hot take about Islam and general talk about religion",
+        category: "Video/Discussion"
+      },
+      "1:24:48": {
+        topic: "Talking about female and male genital mutilation",
+        category: "Discussion"
+      },
+      "2:06:08": {
+        topic: "-",
+        category: "Break"
+      },
+      "2:11:23": {
+        topic: "Helping MrMouton with his new PC",
+        category: "Discussion"
+      },
+      "3:23:19": {
+        topic: "Devin and Harkdan joins and start talking about dual stream setup",
+        category: "Discussion"
+      },
+      "3:55:34": {
+        topic: "Devin talking to about his new move to Seattle",
+        category: "Break"
+      },
+      "4:01:35": {
+        topic: "Destiny talking about his youtube and instagram management",
+        category: "Discussion"
+      },
+      "4:07:01": {
+        topic: "Helping MrMouton with his new PC",
+        category: "Discussion"
+      },
+      "4:12:07": {
+        topic: "Talking to Devin/Harkdan about retail stores and capitalism",
+        category: "Discussion"
+      },
+      "4:36:17": {
+        topic: "Talking about stocks",
+        category: "Discussion"
+      },
+      "4:41:29": {
+        topic: "Talking about Twitch bounty board for streamers and advertising online",
+        category: "Discussion"
+      },
+      "5:05:12": {
+        topic: "Talking about guns and survivalism and viruses",
+        category: "Discussion"
+      },
+      "5:15:21": {
+        topic: "Talking about crypto",
+        category: "Discussion"
+      },
+      "6:30:17": {
+        topic: "Playing minecraft and talking to Harkdan",
+        category: "Minecraft"
+      },
+      "6:37:05": {
+        topic: "Destiny goes AFK and Harkdan and Rem talk about privatisation of public services and other topics",
+        category: "Break/Discussion"
+      },
+      "6:58:23": {
+        topic: "Irishladdie joins to start talk about political violence/socialism/revolution",
+        category: "Break/Discussion"
+      },
+      "7:08:43": {
+        topic: "Destiny comes back to join the discussion",
+        category: "Minecraft/Discussion"
+      },
+      "8:15:25": {
+        topic: "Rem and Irishladdie talking about philosophy",
+        category: "Minecraft/Discussion"
+      },
+      "8:36:51": {
+        topic: "Rem and Irishladdie talking about incels",
+        category: "Minecraft/Discussion"
+      },
+      "9:07:42": {
+        topic: "Rem and Irishladdie talking about philosophy/religion/science",
+        category: "Minecraft/Discussion"
+      },
+      "9:33:48": {
+        topic: "Playing Minecraft",
+        category: "Minecraft"
+      },
+      "9:41:09": {
+        topic: "Playing Minecraft and listening to Hasan Piker debate Charlie Kirk",
+        category: "Minecraft/Video"
+      },
+      "11:04:41": {
+        topic: "Playing Minecraft",
+        category: "Minecraft"
+      },
+      "11:07:48": {
+        topic: "Playing Minecraft and listening to Michael Brooks debating Sargon",
+        category: "Minecraft/Video"
+      },
+      "11:47:20": {
+        topic: "Playing Minecraft",
+        category: "Minecraft"
+      },
+      "11:50:45": {
+        topic: "-",
+        category: "Break"
+      },
+      "11:56:22": {
+        topic: "Duos with MrMouton ",
+        category: "COD:BO 4 Blackout (Duo)"
+      }
+    }
   }
 }
 
