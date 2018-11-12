@@ -6,6 +6,8 @@ import Player from './components/Player';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Options from './components/Options';
+import Vods from './components/Vods/Vods';
+import LogIn from './components/Auth/LogIn';
 
 
 class App extends Component {
@@ -18,6 +20,8 @@ class App extends Component {
             <Route path={'/v/'} component={Player} />
             <Route exact path={'/'} component={Home} />
             <Route path={'/options'} component={Options} />
+            <Route path={'/vods'} component={Vods}/>
+            <Route path={'/login'} component={LogIn} />
           </div>
         </div>
       </HashRouter>
