@@ -33,7 +33,7 @@ class DateView extends Component {
 
   render() {
     const { dates } = this.state;
-    console.log(dates)
+    // console.log(dates)
     return(
       <div className="overflow-auto mr-2">
         {Object.keys(dates).map(date =>

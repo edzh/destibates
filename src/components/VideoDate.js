@@ -13,10 +13,6 @@ class VideoDate extends Component {
 
   render() {
     const { date } = this.props;
-    
-    Object.keys(videoIds).forEach(video => 
-      console.log(videoIds[video].date)
-    )
 
     return (
       <div>
