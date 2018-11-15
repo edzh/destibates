@@ -9,6 +9,7 @@ import Options from './components/Options';
 import Vods from './components/Vods/Vods';
 import LogIn from './components/Auth/LogIn';
 import Register from './components/Auth/Register';
+import TimestampList from './components/Timestamps/TimestampList'
 
 
 class App extends Component {
@@ -22,6 +23,9 @@ class App extends Component {
             <Route exact path={'/'} component={Home} />
             <Route path={'/options'} component={Options} />
             <Route path={'/vods'} component={Vods}/>
+            <Route path={'/vods/:vod'} render={({ match }) => (
+              <TimestampList vod={match.params.vod} />
+            )} />
             <Route path={'/login'} component={LogIn} />
             <Route path={'/register'} component={Register} />
           </div>
