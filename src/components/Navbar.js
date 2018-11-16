@@ -28,9 +28,10 @@ class Navbar extends Component {
   render() {
     if (Auth.loggedIn()) {
       return(
-        <div className="p-6 mb-4 shadow-md bg-grey-darker">
-          <h1 className="text-white mr-6">VODstiny</h1>
-          <h2>Welcome</h2>
+        <div className="p-6 mb-4 shadow-md bg-grey-darker flex">
+          <NavLink to="/">
+            <h1 className="text-white mr-6">VODstiny</h1>
+          </NavLink>
           <p><button onClick={this.handleLogout.bind(this)}>Logout</button></p>
         </div>
     )} else {

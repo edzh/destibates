@@ -7,8 +7,6 @@ class DateList extends Component {
     super(props)
   }
 
-  componentDidMount() {
-  }
 
   render() {
     const { date, vods } = this.props;
@@ -18,7 +16,12 @@ class DateList extends Component {
         { Object.keys(vods)
           .filter(vod => moment(vods[vod].date).format('YYYY-MM-DD') === date)
           .map(vod =>
-            <NavLink key={vod} className="mb-2 p-2 bg-grey-darkest shadow-md block text-grey hover:text-white no-underline" activeClassName="bg-grey-darker" to={`/vods/${vods[vod]._id}`}>
+            <NavLink
+              key={vod}
+              className="mb-2 p-2 bg-grey-darkest shadow-md block text-grey hover:text-white no-underline"
+              activeClassName="bg-grey-darker"
+              to={`/vods/${vods[vod]._id}`}
+            >
               {vods[vod].vodId}
             </NavLink>
           )

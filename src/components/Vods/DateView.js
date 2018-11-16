@@ -50,7 +50,7 @@ class DateView extends Component {
               {moment(date).format('YYYY-MM-DD')}
             </p>
             <div className={dates[date] ? '' : 'hidden'}>
-              <DateList date={date} vods={this.props.vods} />
+              <DateList date={date} vods={this.props.vods} getVodId={this.props.getVodId} />
             </div>
           </div>
         )}

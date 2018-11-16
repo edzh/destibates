@@ -7,11 +7,6 @@ import VideoList from './VideoList';
 class Player extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      videoId: "311132964",
-      timestamp: "0:00:00",
-    }
   }
 
   render() {

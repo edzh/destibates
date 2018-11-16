@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter, Route, Link } from 'react-router-dom';
 import videoIds from './data/videoIds';
 
-import Player from './components/Player';
+import Player from './components/Player/Player';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Options from './components/Options';
@@ -19,13 +19,11 @@ class App extends Component {
         <div className="App font-sans">
           <Navbar />
           <div>
-            <Route path={'/v/'} component={Player} />
+            <Route exact path={'/vods/:vodId?/:timestamp?'} render={({ match }) => (
+              <Player vodId={match.params.vodId} timestamp={match.params.timestamp} />
+            )} />
             <Route exact path={'/'} component={Home} />
             <Route path={'/options'} component={Options} />
-            <Route path={'/vods'} component={Vods}/>
-            <Route path={'/vods/:vod'} render={({ match }) => (
-              <TimestampList vod={match.params.vod} />
-            )} />
             <Route path={'/login'} component={LogIn} />
             <Route path={'/register'} component={Register} />
           </div>
