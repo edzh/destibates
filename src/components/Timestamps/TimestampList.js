@@ -52,7 +52,7 @@ class TimestampList extends Component {
 
           </div>
         )}
-        <Form vod={this.props.vod} />
+        <Form vod={this.props.vod} vodId={this.props.vodId} fetchTimestamps={this.fetchTimestamps} />
       </div>
     );
   }

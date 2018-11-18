@@ -5,15 +5,13 @@ function hmsToSecondsOnly(str) {
     return '';
   }
 
-  var p = str.split(':'),
-    s = 0, m = 1;
+  var h = str.split('h')
+  var m = h[1].split('m')
+  var s = m[1].split('s')
 
-  while (p.length > 0) {
-    s += m * parseInt(p.pop(), 10);
-    m *= 60;
-  }
+  var seconds = parseInt(h[0])*60*60 + parseInt(m[0])*60 + parseInt(s[0])
 
-  return s;
+  return seconds;
 }
 
 class TwitchPlayer extends Component {
@@ -26,7 +24,7 @@ class TwitchPlayer extends Component {
   }
 
   componentDidMount() {
-    const { width, height, vodId } = this.props;
+    const { width, height, vodId, timestamp } = this.props;
 
     if (window.Twitch) {
       this.twitchPlayer = new window.Twitch.Player(this.refs.twitchPlayer, {
@@ -35,7 +33,10 @@ class TwitchPlayer extends Component {
         video: this.props.vodId
       });
       this.twitchPlayer.setVolume(1);
-      // this.twitchPlayer.setVideo(`v${this.props.vodId}`, hmsToSecondsOnly(this.props.timestamp))
+      console.log(this.props.timestamp);
+      this.twitchPlayer && this.twitchPlayer.setVideo(
+        `v${vodId}`, hmsToSecondsOnly(timestamp)
+      );
     }
   }
 
@@ -46,13 +47,9 @@ class TwitchPlayer extends Component {
         vodId: this.props.vodId
       })
     } else {
-      this.twitchPlayer && this.twitchPlayer.seek(hmsToSecondsOnly(this.props.timestamp));
+      this.twitchPlayer && (this.props.timestampId ? this.twitchPlayer.seek(hmsToSecondsOnly(this.props.timestamp)) : this.twitchPlayer.seek(this.twitchPlayer.getCurrentTime()));
     }
 
-  }
-
-  handleChangeVideo(video) {
-    this.twitchPlayer && this.twitchPlayer.setVideo(this.props.vodId);
   }
 
   render() {

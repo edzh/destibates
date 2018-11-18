@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { timestamps } from '../../config/api';
-import { vods } from '../../config/api';
+import { vods, addTimestamp } from '../../config/api';
 import AuthService from '../Auth/AuthService';
 
 const Auth = new AuthService();
@@ -12,7 +12,8 @@ class Form extends Component {
     this.state = {
       timestamp: '',
       topic: '',
-      category: ''
+      category: '',
+      vodId: ''
     }
 
     this.handleChange = this.handleChange.bind(this);
@@ -32,37 +33,13 @@ class Form extends Component {
   }
 
   handleSubmit(event) {
-    const { timestamp, topic, category, vodId } = this.state
-
     event.preventDefault();
 
-      fetch(`${timestamps}?access_token=${Auth.getToken()}`, {
-      method: 'post',
-      body: JSON.stringify({ timestamp,
-        topic,
-        category,
-        vodId,
-        vod: this.props.vod,
-        uid: Auth.getProfile()._id
-      }),
-      headers: {
-        'Content-Type': 'application/json',
-        'access_token': Auth.getToken()
-      }
-    })
-    .then(response => response.json())
-    .then(response =>
-      fetch(`${vods}/${this.props.vod}?access_token=${Auth.getToken()}`, {
-        method: 'put',
-        body: JSON.stringify({
-          timestamp: response._id
-        }),
-        headers: {
-          'Content-Type': 'application/json',
-          'access_token': Auth.getToken()
-        }
-      })
-    )
+    const { timestamp, topic, category } = this.state;
+    const { vodId, vod } = this.props;
+
+    addTimestamp(timestamp, topic, category, vodId, vod)
+      .then(() => this.props.fetchTimestamps(vod));
   }
 
   render() {
