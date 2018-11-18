@@ -17,10 +17,17 @@ class DateView extends Component {
 
   componentDidMount() {
     const { vods } = this.props
+    const unordered_dates = {}
     const dates = {}
 
     Object.keys(vods).forEach(key => {
-      dates[moment(vods[key].date).format('YYYY-MM-DD')] = false
+      // unordered_dates[moment(vods[key].date).format('YYYY-MM-DD')] = false
+      unordered_dates[vods[key].date] = false;
+    })
+
+    Object.keys(unordered_dates).sort((a,b) => {return new Date(b) - new Date(a)})
+    .forEach(key => {
+      dates[moment(key).format('YYYY-MM-DD')] = unordered_dates[key]
     })
 
     this.setState({dates})

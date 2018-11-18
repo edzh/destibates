@@ -35,7 +35,7 @@ export const addTimestamp = (timestamp, topic, category, vodId, vod) =>
         'Content-Type': 'application/json',
         'access_token': Auth.getToken()
       }
-    })
+    }).catch((err) => console.log(err))
   )
   .catch((err) => console.log(err))
 
