@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Route, Link } from 'react-router-dom';
 import videoIds from './data/videoIds';
 
 import Player from './components/Player/Player';
@@ -15,7 +15,7 @@ import TimestampList from './components/Timestamps/TimestampList'
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div className="App font-sans">
           <Navbar />
           <div>
@@ -28,7 +28,7 @@ class App extends Component {
             <Route path={'/register'} component={Register} />
           </div>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
