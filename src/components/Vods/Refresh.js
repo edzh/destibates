@@ -4,7 +4,7 @@ import AuthService from '../Auth/AuthService';
 
 const Auth = new AuthService();
 
-const videos = "https://api.twitch.tv/helix/videos?user_id=18074328"
+const videos = "https://api.twitch.tv/helix/videos?user_id=18074328&first=100"
 
 class Refresh extends Component {
   constructor(props) {

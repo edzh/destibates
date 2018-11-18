@@ -44,13 +44,13 @@ class DateView extends Component {
 
     return(
       <div className="overflow-auto mr-2">
-        {!!dates && Object.keys(dates).map(date =>
+        {Object.keys(dates).map(date =>
           <div key={date} className="mb-2 p-2 bg-black shadow-md block text-grey">
             <p className="mb-2 cursor-pointer" onClick={() => this.toggleDate(date)}>
               {moment(date).format('YYYY-MM-DD')}
             </p>
-            <div className={dates[date] ? '' : 'hidden'}>
-              <DateList date={date} vods={this.props.vods} getVodId={this.props.getVodId} />
+            <div>
+              {dates[date] && <DateList date={date} vods={this.props.vods} getVodId={this.props.getVodId} />}
             </div>
           </div>
         )}

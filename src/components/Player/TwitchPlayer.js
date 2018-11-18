@@ -34,9 +34,7 @@ class TwitchPlayer extends Component {
       });
       this.twitchPlayer.setVolume(1);
       console.log(this.props.timestamp);
-      this.twitchPlayer && this.twitchPlayer.setVideo(
-        `v${vodId}`, hmsToSecondsOnly(timestamp)
-      );
+      this.twitchPlayer && this.twitchPlayer.setVideo(`v${vodId}`, hmsToSecondsOnly(timestamp));
     }
   }
 
