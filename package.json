@@ -2,7 +2,7 @@
   "name": "destibates",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://edzh.github.io/destibates/",
+  // "homepage": "https://edzh.github.io/destibates/",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "jwt-decode": "^2.2.0",
