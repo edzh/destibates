@@ -1,10 +1,12 @@
 import AuthService from '../components/Auth/AuthService';
 const Auth = new AuthService();
 
-export const vods = 'http://localhost:8080/api/vods'
-export const timestamps = 'http://localhost:8080/api/timestamps'
-export const users = 'http://localhost:8080/api/users'
-export const login = 'http://localhost:8080/auth/login'
+const url = 'https://vodstiny.herokuapp.com/';
+
+export const vods = `${url}api/vods`
+export const timestamps = `${url}api/timestamps`
+export const users = `${url}api/users`
+export const login = `${url}auth/login`
 
 export const addTimestamp = (timestamp, topic, category, vodId, vod) =>
   fetch(`${timestamps}?access_token=${Auth.getToken()}`, {

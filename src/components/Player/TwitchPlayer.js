@@ -47,7 +47,7 @@ class TwitchPlayer extends Component {
         vodId: this.props.vodId
       })
     } else {
-      this.twitchPlayer && (this.props.timestampId ? this.twitchPlayer.seek(hmsToSecondsOnly(this.props.timestamp)) : this.twitchPlayer.seek(this.twitchPlayer.getCurrentTime()));
+      this.twitchPlayer && (this.props.timestampId && this.twitchPlayer.seek(hmsToSecondsOnly(this.props.timestamp)));
     }
 
   }

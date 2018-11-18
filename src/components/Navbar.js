@@ -13,12 +13,12 @@ class Navbar extends Component {
     this.handleLogout = this.handleLogout.bind(this);
   }
 
-  componentDidMount() {
-    fetch(`${users}?access_token=${Auth.getToken()}`)
-      .then(response => response.json())
-      .then(user => console.log(user));
+  // componentDidMount() {
+  //   fetch(`${users}?access_token=${Auth.getToken()}`)
+  //     .then(response => response.json())
+  //     .then(user => console.log(user));
 
-  }
+  // }
 
   handleLogout() {
     Auth.logout()

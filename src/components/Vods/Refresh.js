@@ -46,8 +46,10 @@ class Refresh extends Component {
         const vodsToAdd = fetched_ids.filter(vod =>
           vod.id && !current_ids.includes(vod.id)
         )
+        console.log(vodsToAdd);
         this.setState({ vodsToAdd }, this.postVods)
       })
+
   }
 
   postVods() {
