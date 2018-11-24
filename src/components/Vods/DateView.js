@@ -43,8 +43,6 @@ class DateView extends Component {
   }
 
   render() {
-    // this.props.vods && this.setDates();
-
     const { dates } = this.state;
 
 
@@ -57,7 +55,7 @@ class DateView extends Component {
               {moment(date).format('YYYY-MM-DD')}
             </p>
             <div>
-              {dates[date] && <DateList date={date} vods={this.props.vods} getVodId={this.props.getVodId} />}
+              {dates[date] && <DateList date={date} vods={this.props.vods} />}
             </div>
           </div>
         )}

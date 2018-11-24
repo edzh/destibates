@@ -9,7 +9,7 @@ const Timestamp = ({ topic, category, timestampId, vod, time }) =>
         <p className="w-1/4 text-right ml-4 mb-1">{time}</p>
       </div>
 
-      <p>{topic}</p>
+      <p dangerouslySetInnerHTML={{ __html: topic}}></p>
     </div>
   </NavLink>
 

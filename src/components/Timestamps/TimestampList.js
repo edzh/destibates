@@ -3,6 +3,7 @@ import Timestamp from './Timestamp';
 import { timestamps } from '../../config/api'
 
 import Form from './Form';
+import Search from './Search';
 
 class TimestampList extends Component {
   constructor(props) {
@@ -10,8 +11,9 @@ class TimestampList extends Component {
 
     this.state = {
       vod: this.props.vod,
-      timestampByDate: [],
-      loading: true
+      timestampsByVod: [],
+      loading: true,
+      search: false
     }
 
     this.fetchTimestamps = this.fetchTimestamps.bind(this);
@@ -22,14 +24,14 @@ class TimestampList extends Component {
   }
 
   fetchTimestamps(vod) {
-    const timestampByDate = [];
+    const timestampsByVod = [];
     fetch(timestamps)
       .then(response => response.json())
       .then(timestamp => {
         Object.keys(timestamp)
           .filter(key => timestamp[key].vod === vod)
-          .forEach(key => timestampByDate.push(timestamp[key]))
-        this.setState({ timestampByDate })
+          .forEach(key => timestampsByVod.push(timestamp[key]))
+        this.setState({ timestampsByVod })
       })
       .then(() => this.setState({ loading: false }))
   }
@@ -42,13 +44,14 @@ class TimestampList extends Component {
 
   render() {
 
-    const { timestampByDate } = this.state;
-
+    const { timestampsByVod } = this.state;
+    console.log(timestampsByVod);
     return(
       <div>
-        { !this.state.loading && Object.keys(timestampByDate).map(key =>
+        <Search timestampsByVod={timestampsByVod} vod={this.props.vod} />
+        { !this.state.loading && Object.keys(timestampsByVod).map(key =>
           <div key={key}>
-            <Timestamp topic={timestampByDate[key].topic} category={timestampByDate[key].category} timestampId={timestampByDate[key]._id} vod={this.props.vod} time={timestampByDate[key].timestamp} />
+            <Timestamp topic={timestampsByVod[key].topic} category={timestampsByVod[key].category} timestampId={timestampsByVod[key]._id} vod={this.props.vod} time={timestampsByVod[key].timestamp} />
 
           </div>
         )}

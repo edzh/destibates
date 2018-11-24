@@ -17,25 +17,11 @@ class List extends Component {
     }
   }
 
-  // componentDidMount() {
-  //   const { vods } = this.props;
-
-  //   const months = [];
-
-  //   Object.keys(vods).forEach(key => {
-  //     const month = moment(vods[key].date).format('MMMM');
-  //     if (months)
-  //     months.push(month)
-  //   })
-
-  //   console.log(months)
-  // }
-
   render() {
     const { vods, loading } = this.props;
     return(
       <div>
-      { <DateView vods={vods} getVodId={this.props.getVodId}/> }
+      { <DateView vods={vods} /> }
       </div>
     );
   }

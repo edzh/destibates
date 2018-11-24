@@ -21,11 +21,7 @@ class Vods extends Component {
       .then(response => response.json())
       .then(vods => {
         Object.keys(vods).forEach(key => {
-          vodList.push({
-            _id: vods[key]._id,
-            vodId: vods[key].vodId,
-            date: vods[key].date
-          })
+          vodList.push(vods[key])
         })
       })
       .then(this.setState({ vods: vodList }))
@@ -38,7 +34,7 @@ class Vods extends Component {
 
     return(
       <div>
-        { !loading && <List vods={vods} loading={loading} getVodId={this.props.getVodId}/> }
+        { !loading && <List vods={vods} loading={loading} /> }
         <Refresh vods={vods}/>
       </div>
     );
