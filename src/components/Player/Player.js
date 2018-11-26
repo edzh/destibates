@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Vods from '../Vods/Vods';
-import TimestampList from '../Timestamps/TimestampList';
+import Timestamps from '../Timestamps/Timestamps';
 import TwitchPlayer from './TwitchPlayer';
 
 import { vods, timestamps } from '../../config/api'
@@ -11,13 +11,9 @@ class Player extends Component {
     super(props);
 
     this.state = {
-      vodId: '335943508',
+      vodId: '',
       vodView: '',
-      // timestamp: ''
     }
-
-    // this.getVodId = this.getVodId.bind(this);
-    // this.getTimestamp = this.getTimestamp.bind(this);
   }
 
   componentDidMount() {
@@ -51,8 +47,8 @@ class Player extends Component {
     const { vodId, timestamp, vodView } = this.state
 
     return (
-      <div className="flex mx-2">
-        <div className="w-48">
+      <div className="flex" style={{height: "720px"}}>
+        <div className="w-48 overflow-auto">
           <Vods />
         </div>
         <div className="w-full">
@@ -67,7 +63,7 @@ class Player extends Component {
         </div>
         <div className="" style={{width: "24rem"}}>
           <Route path={"/vods/:vod"} render={({ match }) => (
-            <TimestampList vod={match.params.vod} vodId={vodView} />
+            <Timestamps vod={match.params.vod} vodId={vodView} />
           )}/>
         </div>
       </div>

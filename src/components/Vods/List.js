@@ -21,7 +21,7 @@ class List extends Component {
     const { vods, loading } = this.props;
     return(
       <div>
-      { <DateView vods={vods} /> }
+        { <DateView vods={vods} /> }
       </div>
     );
   }

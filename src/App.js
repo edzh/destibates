@@ -9,7 +9,6 @@ import Options from './components/Options';
 import Vods from './components/Vods/Vods';
 import LogIn from './components/Auth/LogIn';
 import Register from './components/Auth/Register';
-import TimestampList from './components/Timestamps/TimestampList'
 
 
 class App extends Component {

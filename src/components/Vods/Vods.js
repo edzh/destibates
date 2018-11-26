@@ -35,7 +35,7 @@ class Vods extends Component {
     return(
       <div>
         { !loading && <List vods={vods} loading={loading} /> }
-        <Refresh vods={vods}/>
+        {/*<Refresh vods={vods}/>*/}
       </div>
     );
   }

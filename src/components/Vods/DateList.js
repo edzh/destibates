@@ -18,11 +18,11 @@ class DateList extends Component {
           .map(vod =>
             <NavLink
               key={vod}
-              className="mb-2 p-2 bg-grey-darkest shadow-md block text-grey hover:text-white no-underline"
+              className="text-center mt-2 p-2 bg-grey-darkest shadow-md block text-grey hover:text-white no-underline"
               activeClassName="bg-grey-darker"
               to={`/vods/${vods[vod]._id}`}
             >
-              {vods[vod].vodId}
+              {moment(vods[vod].date).format('LT')}
             </NavLink>
           )
         }
