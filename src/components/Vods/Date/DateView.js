@@ -34,12 +34,10 @@ class DateView extends Component {
   }
 
   toggleDate(date) {
-    this.setState(prevState => ({
-      dates: {
-        ...prevState.dates,
-        [date]: !this.state.dates[date]
-      }
-    }))
+    const dates = this.state.dates;
+    dates[date] = !dates[date];
+
+    this.setState({dates})
   }
 
   render() {

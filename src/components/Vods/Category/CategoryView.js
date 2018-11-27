@@ -28,7 +28,6 @@ class CategoryView extends Component {
 
         Object.keys(timestamp).forEach(key => {
           unordered_categories[timestamp[key].category] = false
-          unordered_categories[this.props.category] = true
         })
 
         Object.keys(unordered_categories).sort().forEach(key => {
@@ -41,12 +40,12 @@ class CategoryView extends Component {
   }
 
   toggleCategory(category) {
-    this.setState(prevState => ({
-      categories: {
-        ...prevState.categories,
-        [category]: true
-      }
-    }))
+    // this.setState(prevState => ({
+    //   categories: {
+    //     ...prevState.categories,
+    //     [category]: !this.state.categories[category]
+    //   }
+    // }))
     this.props.setCategory(category)
   }
 
