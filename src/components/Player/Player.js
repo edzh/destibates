@@ -13,7 +13,12 @@ class Player extends Component {
     this.state = {
       vodId: '',
       vodView: '',
+      type: "date",
+      category: '',
     }
+
+    this.setType = this.setType.bind(this);
+    this.setCategory = this.setCategory.bind(this);
   }
 
   componentDidMount() {
@@ -43,13 +48,21 @@ class Player extends Component {
     }
   }
 
+  setType(type) {
+    this.setState({ type })
+  }
+
+  setCategory(category) {
+    this.setState({ category })
+  }
+
   render() {
     const { vodId, timestamp, vodView } = this.state
 
     return (
-      <div className="flex" style={{height: "720px"}}>
-        <div className="w-48 overflow-auto">
-          <Vods />
+      <div className="flex" >
+        <div className="w-48">
+          <Vods category={this.state.category} setCategory={this.setCategory} setType={this.setType}/>
         </div>
         <div className="w-full">
           {(this.props.timestamp ? timestamp : vodId) && <TwitchPlayer
@@ -63,7 +76,7 @@ class Player extends Component {
         </div>
         <div className="" style={{width: "24rem"}}>
           <Route path={"/vods/:vod"} render={({ match }) => (
-            <Timestamps vod={match.params.vod} vodId={vodView} />
+            <Timestamps category={this.state.category} vod={match.params.vod} type={this.state.type} vodId={vodView} />
           )}/>
         </div>
       </div>

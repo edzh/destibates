@@ -34,7 +34,7 @@ class Vods extends Component {
 
     return(
       <div>
-        { !loading && <List vods={vods} loading={loading} /> }
+        { !loading && <List category={this.props.category} setCategory={this.props.setCategory} setType={this.props.setType} vods={vods} loading={loading} /> }
         {/*<Refresh vods={vods}/>*/}
       </div>
     );
