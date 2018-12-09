@@ -33,12 +33,12 @@ class TwitchPlayer extends Component {
         video: this.props.vodId
       });
       this.twitchPlayer.setVolume(1);
-      console.log(this.props.timestamp);
       this.twitchPlayer && this.twitchPlayer.setVideo(`v${vodId}`, hmsToSecondsOnly(timestamp));
     }
   }
 
   componentDidUpdate() {
+    console.log('h1')
     if ( this.state.vodId !== this.props.vodId ) {
       this.twitchPlayer && this.twitchPlayer.setVideo(`v${this.props.vodId}`);
       this.setState({

@@ -17,6 +17,9 @@ class List extends Component {
   handleSearch(query) {
     const { timestampsByVod } = this.props;
 
+    const invalid = /[°"§%()\[\]{}=\\?´`'#<>|,;.:+_-]+/g;
+    query = query.replace(invalid, '');
+
     const results = timestampsByVod.filter(timestamp => {
       const regex = new RegExp(query, 'gi')
       if (query === '') {
@@ -29,6 +32,10 @@ class List extends Component {
   }
 
   displayMatches(query, string) {
+
+    const invalid = /[°"§%()\[\]{}=\\?´`'#<>|,;.:+_-]+/g;
+    query = query.replace(invalid, '');
+
     const regex = new RegExp(query, 'gi')
     const match = string.replace(regex, `<span class="bg-grey-lightest text-grey-darkest">${query}</span>`)
 

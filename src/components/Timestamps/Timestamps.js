@@ -39,12 +39,10 @@ class Timestamps extends Component {
 
   fetchTimestampsByVod(vod) {
     const timestampsByVod = [];
-    fetch(timestamps)
+    fetch(`${timestamps}?vod=${vod}`)
       .then(response => response.json())
       .then(timestamp => {
-        Object.keys(timestamp)
-          .filter(key => timestamp[key].vod === vod)
-          .forEach(key => timestampsByVod.push(timestamp[key]))
+        timestampsByVod.push(...timestamp)
         this.setState({ timestampsByVod })
       })
       .then(() => this.setState({ loading: false }))
@@ -52,15 +50,15 @@ class Timestamps extends Component {
 
   fetchTimestampsByCategory(category) {
     const timestampsByCategory = [];
-    fetch(timestamps)
+    fetch(`${timestamps}?category=${encodeURIComponent(category)}`)
       .then(response => response.json())
       .then(timestamp => {
-        Object.keys(timestamp)
-          .filter(key => timestamp[key].category === category)
-          .forEach(key => timestampsByCategory.push(timestamp[key]))
-        this.setState({ timestampsByCategory })
+        timestampsByCategory.push(...timestamp)
+        this.setState({timestampsByCategory})
       })
-      .then(() => this.setState({ loading: false }))
+      .then(() => {
+        this.setState({ loading: false })
+      })
   }
 
 
