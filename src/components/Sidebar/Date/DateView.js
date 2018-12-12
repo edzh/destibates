@@ -20,16 +20,20 @@ const DateView = (props) => {
     ]
   }
 
-  if (props.date.currentPart === 'month' && props.vods.length !== 0) {
-    return [
-      <Previous
-        key={0}
-        onDatePartClick={props.onDatePartClick}
-        part={'year'}
-        date={props.date.month}
-      />,
-      <DayList key={1} {...props} />
-    ]
+  if (!props.isFetchingVods) {
+    if (props.date.currentPart === 'month' && props.vods.length !== 0) {
+      return [
+        <Previous
+          key={0}
+          onDatePartClick={props.onDatePartClick}
+          part={'year'}
+          date={props.date.month}
+        />,
+        <DayList key={1} {...props} />
+      ]
+    }
+  } else {
+    return <p className="text-grey-lightest">loading...</p>
   }
 
   return(

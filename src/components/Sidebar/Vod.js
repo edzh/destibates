@@ -2,53 +2,25 @@ import React from 'react';
 import moment from 'moment'
 import TimestampList from '../../containers/TimestampContainer';
 
-class Vod extends React.Component {
-  constructor(props) {
-    super(props);
+const Vod = ({ vod, setTimestampsByVod, onVodClick, currentVod }) => {
 
-    this.state = {
-      collapse: true
-    }
+return(
+  <li>
+    <div onClick={() => {
+      setTimestampsByVod(vod.timestamps);
+      currentVod === vod.vodId
+        ? onVodClick('')
+        : onVodClick(vod.vodId);
+      }}
+      className={`flex rounded ${currentVod === vod.vodId ? 'bg-grey-darker' : 'bg-grey-darkest'} text-grey-light py-1 mx-2 mb-0 mt-2`}>
+      <p className="ml-auto">
+        { moment(vod.date).format('LT') }
+      </p>
+      <p className="ml-auto mr-4 text-xs">{ vod.timestamps.length } timestamps </p>
+      <p className="mr-1">{ currentVod === vod.vodId ? '\u25be' : '\u25b8' }</p>
 
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  componentDidMount() {
-    // const { vod: { timestamps } } = this.props
-
-    // console.log(timestamps);
-  }
-
-  handleClick() {
-    this.setState({ collapse: !this.state.collapse })
-  }
-
-  render() {
-    const { vod, setTimestampsByVod } = this.props;
-
-    return(
-      <li onClick={() => setTimestampsByVod(vod.timestamps)}>
-        <p onClick={() => this.handleClick()} className="bg-grey-lighter rounded text-grey-darkest py-1 m-1 text-center">{ moment(vod.date).format('LT') }</p>
-        { !this.state.collapse && <TimestampList /> }
-      </li>
-    );
-  }
-}
-
-// const Vod = ({ vod, onVodClick, fetchTimestamps, timestamps }) => {
-//     return(
-//       <li
-//         className=""
-//         onClick={() => {
-//           // fetchTimestamps('vodId', currentVod.vodId);
-//           // onVodClick(currentVod.vodId);
-//         }}
-//       >
-//         <p className="bg-grey-lighter rounded text-grey-darkest py-1 m-1 text-center">{ moment(vod.date).format('LT') }</p>
-
-//       </li>
-//       );
-
-// }
+    </div>
+    {currentVod === vod.vodId && <TimestampList />}
+  </li>)}
 
 export default Vod;

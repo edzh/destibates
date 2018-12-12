@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import {
   setVod,
   fetchTimestamps,
-  setTimestampsByVod
+  setTimestampsByVod,
+  setSidebarVod
 } from '../actions'
 
 import VodList from '../components/Sidebar/VodList';
@@ -11,6 +12,7 @@ import VodList from '../components/Sidebar/VodList';
 const mapStateToProps = (state) => {
   return {
     vod: state.vod,
+    currentVod: state.sidebar.vod,
     timestamp: state.timestamp,
     timestamps: state.sidebar.timestamps.items
   }
@@ -18,14 +20,14 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onVodClick: vod => {
-      dispatch(setVod(vod))
-    },
     fetchTimestamps: (filter, vodId) => {
       dispatch(fetchTimestamps(filter, vodId))
     },
     setTimestampsByVod: (timestamps) => {
       dispatch(setTimestampsByVod(timestamps))
+    },
+    onVodClick: (vod) => {
+      dispatch(setSidebarVod(vod))
     }
   }
 }

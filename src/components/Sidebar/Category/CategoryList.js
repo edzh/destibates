@@ -1,19 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CategoryList = ({ onCategoryClick, categories }) => {
+import Category from './Category';
+
+const CategoryList = ({ onCategoryClick, currentCategory, categories, fetchTimestamps, timestamps }) => {
   return(
-    <div>
-      <ul>
-      { categories.items.map(category =>
-        <li
-          className="text-grey-lightest"
-          onClick={() => onCategoryClick(category)}
-          key={category}
-        >{category}</li>
-      )}
-      </ul>
-    </div>
+    <ul className="list-reset bg-black">
+    { categories.items.map(category =>
+      <Category
+        onCategoryClick={onCategoryClick}
+        categories={categories}
+        fetchTimestamps={fetchTimestamps}
+        timestamps={timestamps}
+        category={category}
+        currentCategory={currentCategory}
+      />
+    )}
+    </ul>
   );
 }
 

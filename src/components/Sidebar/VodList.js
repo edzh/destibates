@@ -3,17 +3,18 @@ import moment from 'moment'
 
 import Vod from './Vod';
 
-const VodList = ({ vods, setTimestampsByVod, collapse }) => {
+const VodList = ({ vod, vods, setTimestampsByVod, onVodClick, currentVod, collapse }) => {
 
   return (
     <ul className="list-reset">
       { !collapse && Object.keys(vods).map(key => {
-        console.log(vods, vods[key].timestamps)
         return(
           <Vod
             key={key}
             vod={vods[key]}
+            currentVod={currentVod}
             setTimestampsByVod={setTimestampsByVod}
+            onVodClick={onVodClick}
           />
         );
       }

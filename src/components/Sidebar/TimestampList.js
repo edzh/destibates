@@ -8,12 +8,12 @@ class TimestampList extends React.Component {
   }
 
   render() {
-    const { timestamps, onTimestampClick } = this.props;
+    const { vod, timestamps, timestamp, onTimestampClick } = this.props;
 
     return (
       <ul className="list-reset">
         { timestamps.map((key, index) =>
-          <Timestamp key={index} vod={key.vodId} topic={key.topic} category={key.category} timestamp={key.timestamp} onTimestampClick={onTimestampClick} />
+          <Timestamp key={index} currentVod={vod} vod={key.vodId} topic={key.topic} category={key.category} currentTimestamp={timestamp} timestamp={key.timestamp} onTimestampClick={onTimestampClick} />
         )}
       </ul>
     );

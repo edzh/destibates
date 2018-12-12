@@ -6,7 +6,7 @@ const Previous = ({ part, date, onDatePartClick }) =>
     onClick={() => onDatePartClick(part)}
     key={0}
   >
-    <p className="ml-4">{date}</p>
+    <p className="ml-2">{'\u25c2'} {date}</p>
   </div>
 
 export default Previous;

@@ -127,7 +127,6 @@ function receiveVods(filter, value, json) {
 }
 
 export function fetchVods(filter, value) {
-  console.log(value)
   return dispatch => {
     dispatch(requestVods(filter, value))
     return fetch(`${url}/vods?${filter}=${value}`)
@@ -143,6 +142,15 @@ export function setVod(vod) {
     vod
   }
 }
+
+export const SET_SIDEBAR_VOD = 'SET_SIDEBAR_VOD';
+export function setSidebarVod(vod) {
+  return {
+    type: SET_SIDEBAR_VOD,
+    vod
+  }
+}
+
 
 export const SET_TIMESTAMP = 'SET_TIMESTAMP'
 export function setTimestamp(timestamp) {

@@ -38,12 +38,10 @@ class TwitchPlayer extends Component {
   }
 
   componentDidUpdate() {
-    console.log('h1')
+
     if ( this.state.vodId !== this.props.vodId ) {
       this.twitchPlayer && this.twitchPlayer.setVideo(`v${this.props.vodId}`);
-      this.setState({
-        vodId: this.props.vodId
-      })
+      this.setState({ vodId: this.props.vodId })
     } else {
       this.twitchPlayer && (this.props.timestampId && this.twitchPlayer.seek(hmsToSecondsOnly(this.props.timestamp)));
     }

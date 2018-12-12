@@ -11,7 +11,7 @@ class DayList extends React.Component {
     super(props)
 
     this.state = {
-      vodsByDay: {}
+      vodsByDay: []
     }
 
     this.handleClick = this.handleClick.bind(this);
@@ -20,15 +20,16 @@ class DayList extends React.Component {
   componentDidMount() {
     const { vods } = this.props;
     const unorderedVodsByDay = {};
-    const vodsByDay = {};
+    const vodsByDay = [];
 
     Object.keys(vods).forEach(key => {
-      const dayNumber = moment(vods[key].date).format('D')
+      const dayNumber = moment.utc(vods[key].date).format('D')
 
       if (unorderedVodsByDay[dayNumber]) {
         unorderedVodsByDay[dayNumber] = {
           ...unorderedVodsByDay[dayNumber],
-          weekday: moment(vods[key].date).day(),
+          weekday: moment.utc(vods[key].date).day(),
+          day: dayNumber,
           vods: [
             ...unorderedVodsByDay[dayNumber].vods,
             vods[key]
@@ -37,17 +38,23 @@ class DayList extends React.Component {
       } else {
         unorderedVodsByDay[dayNumber] = {
           collapse: true,
-          weekday: moment(vods[key].date).day(),
+          weekday: moment.utc(vods[key].date).day(),
+          day: dayNumber,
           vods: [vods[key]]
         }
       }
     })
 
-    Object.keys(unorderedVodsByDay).sort((a,b) => {return parseInt(b) - parseInt(a)})
+    Object.keys(unorderedVodsByDay)
+    .sort((a,b) => {return parseInt(b) - parseInt(a)})
     .forEach(key => {
-      vodsByDay[key] = unorderedVodsByDay[key]
+      // console.log(key)
+      // vodsByDay[key] = unorderedVodsByDay[key]
+      vodsByDay.push(unorderedVodsByDay[key])
     })
+
     console.log(vodsByDay)
+
     this.setState({vodsByDay})
   }
 
@@ -68,18 +75,19 @@ class DayList extends React.Component {
     const { onDateClick, onDatePartClick, date, vods } = this.props
     const { vodsByDay } = this.state;
 
-    // return (<div>a</div>)
     return (
-      <ul className="list-reset">
+      <ul className="list-reset bg-black">
         { Object.keys(vodsByDay).map(day =>
           <li
-            className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0 flex"
+            className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0"
             key={day}
           >
             <div className="w-full">
               <div className="ml-2 flex" onClick={() => this.handleClick(day)}>
-                <p className="w-4 mr-3 text-right">{day}</p>
+                <p className="w-4 mr-3 text-right">{vodsByDay[day].day}</p>
                 <p>{weekdays[vodsByDay[day].weekday]}</p>
+                <p className="ml-auto text-xs"><span className="text-grey-lightest">{vodsByDay[day].vods.length}</span> VODs</p>
+                <p className="ml-3 mr-3">{vodsByDay[day].collapse ? '\u25b8' : '\u25be'}</p>
               </div>
               <div><VodList vods={vodsByDay[day].vods} collapse={vodsByDay[day].collapse}/></div>
             </div>
@@ -90,41 +98,6 @@ class DayList extends React.Component {
     );
   }
 }
-
-
-// const DayList = ({ onDateClick, onDatePartClick, date, vods }) => {
-//   const monthNumber = moment(date.month, 'MMMM').format('M');
-//   const numberOfDays = new Date(date.year, monthNumber, 0).getDate()
-//   const days = [];
-
-//   for (let i = numberOfDays; i > 0; i--) {
-//     days.push({
-//       number: i,
-//       weekday: weekdays[new Date(date.year, monthNumber, i).getDay()]
-//     })
-//   }
-
-//   return(
-//     <ul className="list-reset">
-//       { Object.keys(days).map(day =>
-//         <li
-//           className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0 flex"
-//           key={day}
-//           onClick={() => {
-//             onDateClick('day', days[day].number);
-//           }}
-//         >
-//           <div className="w-full">
-//             <div className="ml-2 flex">
-//               <p className="w-4 mr-3 text-right">{days[day].number}</p>
-//               <p>{days[day].weekday}</p>
-//             </div>
-//           </div>
-//         </li>
-//       )}
-//     </ul>
-//   );
-// }
 
 DayList.propTypes = {
 

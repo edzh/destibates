@@ -5,7 +5,7 @@ import Player from '../components/Player/Player';
 const mapStateToProps = (state) => {
   return {
     timestamp: state.timestamp,
-    vod: state.vod
+    vodId: state.vod
   }
 }
 

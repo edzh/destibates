@@ -16,8 +16,11 @@ const mapStateToProps = (state) => {
   return {
     sidebar: state.sidebar,
     categories: state.sidebar.categories,
-    vods: state.sidebar.vods,
-    date: state.sidebar.date
+    isFetchingVods: state.sidebar.vods.isFetching,
+    vods: state.sidebar.vods.items,
+    date: state.sidebar.date,
+    timestamps: state.sidebar.timestamps.items,
+    currentCategory: state.sidebar.category
   }
 }
 

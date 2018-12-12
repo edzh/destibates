@@ -19,7 +19,7 @@ const months = [
 const MonthList = ({ onDateClick, onDatePartClick, fetchVods }) => {
   return(
     <div>
-      <ul className="list-reset">
+      <ul className="list-reset bg-black">
       { months.map(month =>
         <li
           className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0"

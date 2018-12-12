@@ -1,8 +1,8 @@
 import AuthService from '../components/Auth/AuthService';
 const Auth = new AuthService();
 
-const url = process.env.REACT_APP_API_URL;
-// const url = 'https://vodstiny.herokuapp.com/'
+// const url = process.env.REACT_APP_API_URL;
+const url = 'https://vodstiny.herokuapp.com/'
 
 export const vods = `${url}api/vods`
 export const timestamps = `${url}api/timestamps`

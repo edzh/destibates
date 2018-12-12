@@ -24,32 +24,36 @@ class Sidebar extends React.Component {
       onDatePartClick,
       onCategoryClick,
       fetchTimestamps,
+      timestamps,
       fetchVods,
       sidebar,
       categories,
-      vods
+      currentCategory,
+      vods,
+      isFetchingVods
     } = this.props
 
-    if (sidebar.view === 'date')
+    if (sidebar.view === 'date') {
       return(
         <div>
           <p
-            className="bg-grey-darker p-2 text-grey"
+            className="bg-grey-darker p-2 mx-auto text-grey"
             onClick={() => onViewClick('')}
           >
             {sidebar.view}
           </p>
           <DateView
             date={sidebar.date}
-            fetchTimestamps={fetchTimestamps}
             fetchVods={fetchVods}
+            isFetchingVods={isFetchingVods}
             onDatePartClick={onDatePartClick}
             onDateClick={onDateClick}
             vods={vods}
           />
         </div>
       );
-    if (sidebar.view === 'category')
+    }
+    if (sidebar.view === 'category') {
       return(
         <div>
           <p
@@ -58,10 +62,16 @@ class Sidebar extends React.Component {
           >
             {sidebar.view}
           </p>
-          <CategoryList onCategoryClick={onCategoryClick} categories={categories} />
+          <CategoryList
+            fetchTimestamps={fetchTimestamps}
+            timestamps={timestamps}
+            onCategoryClick={onCategoryClick}
+            categories={categories}
+            currentCategory={currentCategory}
+          />
         </div>
       );
-
+    }
     return(
       <div>
         {filters.map(filter =>
