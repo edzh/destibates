@@ -48,12 +48,8 @@ class DayList extends React.Component {
     Object.keys(unorderedVodsByDay)
     .sort((a,b) => {return parseInt(b) - parseInt(a)})
     .forEach(key => {
-      // console.log(key)
-      // vodsByDay[key] = unorderedVodsByDay[key]
       vodsByDay.push(unorderedVodsByDay[key])
     })
-
-    console.log(vodsByDay)
 
     this.setState({vodsByDay})
   }

@@ -12,6 +12,10 @@ class Player extends Component {
 
   }
 
+  componentDidMount() {
+
+  }
+
   render() {
     const { vodId, timestamp } = this.props;
 

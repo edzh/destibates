@@ -19,8 +19,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     onTimestampClick: (vod, timestamp) => {
-      dispatch(setTimestamp(timestamp));
       dispatch(setVod(vod));
+      dispatch(setTimestamp(timestamp));
     },
     fetchTimestamps: (filter, vodId) => {
       dispatch(fetchTimestamps(filter, vodId))

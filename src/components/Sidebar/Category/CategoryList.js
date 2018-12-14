@@ -6,8 +6,9 @@ import Category from './Category';
 const CategoryList = ({ onCategoryClick, currentCategory, categories, fetchTimestamps, timestamps }) => {
   return(
     <ul className="list-reset bg-black">
-    { categories.items.map(category =>
+    { categories.items.map((category, index) =>
       <Category
+        key={index}
         onCategoryClick={onCategoryClick}
         categories={categories}
         fetchTimestamps={fetchTimestamps}
