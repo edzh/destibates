@@ -1,5 +1,5 @@
 import React from 'react';
-import Timestamp from './Timestamp';
+import Timestamp from '../../containers/TimestampContainer';
 
 
 class TimestampList extends React.Component {
@@ -8,12 +8,12 @@ class TimestampList extends React.Component {
   }
 
   render() {
-    const { vod, timestamps, timestamp, onTimestampClick } = this.props;
+    const { timestamps, query } = this.props;
 
     return (
       <ul className="list-reset">
-        { timestamps.map((key, index) =>
-          <Timestamp key={index} currentVod={vod} vod={key.vodId} topic={key.topic} category={key.category} currentTimestamp={timestamp} timestamp={key.timestamp} onTimestampClick={onTimestampClick} />
+        { timestamps.map((timestamp, index) =>
+          <Timestamp key={index} timestamp={timestamp} query={query} />
         )}
       </ul>
     );

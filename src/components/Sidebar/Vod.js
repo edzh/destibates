@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment'
-import TimestampList from '../../containers/TimestampContainer';
+import TimestampList from '../../containers/TimestampListContainer';
 
 const Vod = ({ vod, setTimestampsByVod, onVodClick, currentVod }) => {
 

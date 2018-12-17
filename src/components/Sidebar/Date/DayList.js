@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 
 import VodList from '../../../containers/VodContainer';
+import Search from '../Search';
 
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
@@ -73,6 +74,7 @@ class DayList extends React.Component {
 
     return (
       <ul className="list-reset bg-black">
+        <div><Search vods={vods}/></div>
         { Object.keys(vodsByDay).map(day =>
           <li
             className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0"

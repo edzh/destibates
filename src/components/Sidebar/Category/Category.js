@@ -1,5 +1,5 @@
 import React from 'react';
-import TimestampList from '../../../containers/TimestampContainer';
+import TimestampList from '../../../containers/TimestampListContainer';
 
 
 const Category = ({onCategoryClick, currentCategory, categories, category, fetchTimestamps, timestamps}) =>

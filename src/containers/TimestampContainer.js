@@ -6,13 +6,12 @@ import {
   fetchTimestamps
 } from '../actions'
 
-import TimestampList from '../components/Sidebar/TimestampList';
+import Timestamp from '../components/Sidebar/Timestamp';
 
 const mapStateToProps = (state) => {
   return {
-    vod: state.vod,
-    timestamp: state.timestamp,
-    timestamps: state.sidebar.timestamps.items
+    currentVod: state.vod,
+    currentTimestamp: state.timestamp,
   }
 }
 
@@ -21,9 +20,6 @@ const mapDispatchToProps = (dispatch) => {
     onTimestampClick: (vod, timestamp) => {
       dispatch(setVod(vod));
       dispatch(setTimestamp(timestamp));
-    },
-    fetchTimestamps: (filter, vodId) => {
-      dispatch(fetchTimestamps(filter, vodId))
     }
   }
 }
@@ -31,6 +27,6 @@ const mapDispatchToProps = (dispatch) => {
 const TimestampContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(TimestampList);
+)(Timestamp);
 
 export default TimestampContainer;
