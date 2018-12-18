@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {vods} from '../../config/api';
-import AuthService from '../Auth/AuthService';
+import { vods } from '../config/api';
+import { TwitchAPIKey } from '../config';
+import AuthService from './Auth/AuthService';
 
 const Auth = new AuthService();
 
@@ -11,30 +12,30 @@ class Refresh extends Component {
     super(props);
 
     this.state = {
-      vodsToAdd: []
+      vodsToAdd: [],
+      current_ids: []
     }
 
     this.getTwitchVods = this.getTwitchVods.bind(this);
+    this.getCurrentVods = this.getCurrentVods.bind(this);
     this.postVods = this.postVods.bind(this);
+  }
+
+  componentDidMount() {
+    this.getTwitchVods();
+    this.getCurrentVods();
   }
 
   getTwitchVods() {
     fetch(videos, {
       method: 'get',
       headers: {
-        // 'Authorization': 'Bearer xi0b0iptqmx5nhwwyzdbndj528cs3x'
-        'Client-ID': '9wytke1zqxbw9f2tp5c36qy754xgry'
+        'Client-ID': TwitchAPIKey
       }
     })
       .then(response => response.json())
       .then(vods => {
         const fetched_ids = [];
-        const current_ids = []
-
-
-        Object.keys(this.props.vods).forEach(vod => {
-          current_ids.push(this.props.vods[vod].vodId)
-        })
 
         Object.keys(vods.data).forEach(key => {
           fetched_ids.push({
@@ -43,22 +44,36 @@ class Refresh extends Component {
           })
         })
 
-        const vodsToAdd = fetched_ids.filter(vod =>
-          vod.id && !current_ids.includes(vod.id)
-        )
-        console.log(vodsToAdd);
-        this.setState({ vodsToAdd }, this.postVods)
+        this.setState({ fetched_ids })
       })
+      .catch((err) => console.log(err));
+  }
 
+  getCurrentVods() {
+    fetch(vods)
+      .then(response => response.json())
+      .then(data => {
+        const current_ids = [];
+        Object.keys(data).forEach(key => {
+          current_ids.push(data[key].vodId)
+        })
+        this.setState({ current_ids })
+      })
   }
 
   postVods() {
-    Object.keys(this.state.vodsToAdd).forEach(key => {
+    const { current_ids, fetched_ids } = this.state;
+
+    const vodsToAdd = fetched_ids.filter(vod =>
+      vod.id && !current_ids.includes(vod.id)
+    )
+
+    Object.keys(vodsToAdd).forEach(key => {
       fetch(`${vods}?access_token=${Auth.getToken()}`, {
         method: 'post',
         body: JSON.stringify({
-          vodId: this.state.vodsToAdd[key].id,
-          date: this.state.vodsToAdd[key].date,
+          vodId: vodsToAdd[key].id,
+          date: vodsToAdd[key].date,
         }),
         headers: {
           "Content-Type": "application/json"
@@ -71,7 +86,7 @@ class Refresh extends Component {
   render() {
     return(
       <div>
-        <p onClick={this.getTwitchVods}>refreshed</p>
+        <p onClick={this.postVods}>refreshed</p>
       </div>
     );
   }

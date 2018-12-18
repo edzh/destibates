@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cross-fetch": "^2.2.3",
     "gh-pages": "^2.0.0",
     "jwt-decode": "^2.2.0",
     "moment": "^2.22.2",
@@ -10,9 +11,12 @@
     "react": "^16.5.2",
     "react-datepicker": "^1.8.0",
     "react-dom": "^16.5.2",
+    "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.3",
-    "recompose": "^0.30.0"
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "prestart": "./node_modules/.bin/tailwind build ./src/index.tailwind.css -c ./tailwind.js -o ./src/index.css",

@@ -28,22 +28,20 @@ class TwitchPlayer extends Component {
 
     if (window.Twitch) {
       this.twitchPlayer = new window.Twitch.Player(this.refs.twitchPlayer, {
-        width: this.props.width,
-        height: this.props.height,
-        video: this.props.vodId
+        width: width,
+        height: height,
+        video: vodId
       });
       this.twitchPlayer.setVolume(1);
-      console.log(this.props.timestamp);
       this.twitchPlayer && this.twitchPlayer.setVideo(`v${vodId}`, hmsToSecondsOnly(timestamp));
     }
   }
 
   componentDidUpdate() {
+
     if ( this.state.vodId !== this.props.vodId ) {
-      this.twitchPlayer && this.twitchPlayer.setVideo(`v${this.props.vodId}`);
-      this.setState({
-        vodId: this.props.vodId
-      })
+      this.twitchPlayer && this.twitchPlayer.setVideo(`v${this.props.vodId}`, hmsToSecondsOnly(this.props.timestamp));
+      this.setState({ vodId: this.props.vodId })
     } else {
       this.twitchPlayer && (this.props.timestampId && this.twitchPlayer.seek(hmsToSecondsOnly(this.props.timestamp)));
     }

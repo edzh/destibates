@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import AuthService from './Auth/AuthService';
-import { users } from '../config/api'
+// import { users } from '../config/api'
 import { withRouter } from 'react-router';
 
 const Auth = new AuthService();
@@ -26,21 +26,17 @@ class Navbar extends Component {
   }
 
   render() {
-    if (Auth.loggedIn()) {
       return(
-        <div className="p-6 mb-4 shadow-md bg-grey-darker flex">
+        <div className="p-4 shadow-md bg-grey-darker flex">
           <NavLink to="/">
-            <h1 className="text-white mr-6">VODstiny</h1>
+            <h2 className="text-white mr-6">VODstiny</h2>
           </NavLink>
-          <p><button onClick={this.handleLogout.bind(this)}>Logout</button></p>
+          {Auth.loggedIn()
+            ? <p><button onClick={this.handleLogout.bind(this)}>Logout</button></p>
+            : <NavLink to="/login">Login</NavLink>
+          }
         </div>
-    )} else {
-      return (
-        <div className="p-6 mb-4 shadow-md bg-grey-darker">
-          <h1 className="text-white mr-6">VODstiny</h1>
-          <NavLink to="/login">Login</NavLink>
-        </div>
-    )}
+    )
   }
 }
 
