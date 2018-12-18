@@ -1,7 +1,6 @@
 import { connect } from 'react-redux';
 import {
   setSidebarView,
-  setSidebarDateMonth,
   setSidebarDate,
   setSidebarDatePart,
   setSidebarCategory,

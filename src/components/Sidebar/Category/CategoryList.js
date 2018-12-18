@@ -22,7 +22,7 @@ const CategoryList = ({ onCategoryClick, currentCategory, categories, fetchTimes
 }
 
 CategoryList.propTypes = {
-
+  categories: PropTypes.array
 }
 
 export default CategoryList;

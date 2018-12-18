@@ -39,7 +39,9 @@ const MonthList = ({ onDateClick, onDatePartClick, fetchVods }) => {
 }
 
 MonthList.propTypes = {
-
+  onDateClick: PropTypes.func.isRequired,
+  onDatePartClick: PropTypes.func.isRequired,
+  fetchVods: PropTypes.func.isRequired,
 }
 
 export default MonthList;

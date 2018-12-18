@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import {
   setVod,
   setTimestamp,
-  fetchTimestamps
 } from '../actions'
 
 import Timestamp from '../components/Sidebar/Timestamp';

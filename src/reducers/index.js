@@ -70,6 +70,8 @@ function date(state, action) {
       return { ...state, [action.part]: action.value }
     case SET_SIDEBAR_DATE_PART:
       return { ...state, currentPart: action.part }
+    default:
+      return state
   }
 }
 

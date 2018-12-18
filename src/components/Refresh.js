@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {vods} from '../../config/api';
-import AuthService from '../Auth/AuthService';
+import { vods } from '../config/api';
+import { TwitchAPIKey } from '../config';
+import AuthService from './Auth/AuthService';
 
 const Auth = new AuthService();
 
@@ -29,8 +30,7 @@ class Refresh extends Component {
     fetch(videos, {
       method: 'get',
       headers: {
-        // 'Authorization': 'Bearer xi0b0iptqmx5nhwwyzdbndj528cs3x'
-        'Client-ID': '9wytke1zqxbw9f2tp5c36qy754xgry'
+        'Client-ID': TwitchAPIKey
       }
     })
       .then(response => response.json())
@@ -46,6 +46,7 @@ class Refresh extends Component {
 
         this.setState({ fetched_ids })
       })
+      .catch((err) => console.log(err));
   }
 
   getCurrentVods() {

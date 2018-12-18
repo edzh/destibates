@@ -28,9 +28,9 @@ class TwitchPlayer extends Component {
 
     if (window.Twitch) {
       this.twitchPlayer = new window.Twitch.Player(this.refs.twitchPlayer, {
-        width: this.props.width,
-        height: this.props.height,
-        video: this.props.vodId
+        width: width,
+        height: height,
+        video: vodId
       });
       this.twitchPlayer.setVolume(1);
       this.twitchPlayer && this.twitchPlayer.setVideo(`v${vodId}`, hmsToSecondsOnly(timestamp));

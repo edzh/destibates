@@ -24,7 +24,8 @@ const YearList = ({ onDateClick, onDatePartClick }) => {
 }
 
 YearList.propTypes = {
-
+  onDateClick: PropTypes.func.isRequired,
+  onDatePartClick: PropTypes.func.isRequired,
 }
 
 export default YearList;

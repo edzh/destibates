@@ -1,21 +1,8 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
-import Vods from '../Vods/Vods';
-import Timestamps from '../Timestamps/Timestamps';
+import PropTypes from 'prop-types';
 import TwitchPlayer from './TwitchPlayer';
 
-import { vods, timestamps } from '../../config/api'
-
 class Player extends Component {
-  constructor(props) {
-    super(props);
-
-  }
-
-  componentDidMount() {
-
-  }
-
   render() {
     const { vodId, timestamp } = this.props;
 
@@ -34,6 +21,11 @@ class Player extends Component {
       </div>
     )
   }
+}
+
+Player.propTypes = {
+  vodId: PropTypes.string,
+  timestamp: PropTypes.string
 }
 
 export default Player;

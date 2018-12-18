@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import YearList from './YearList';
 import MonthList from './MonthList';
 import DayList from './DayList';
-import VodList from '../../../containers/VodContainer';
 import Previous from '../Previous';
 
 const DateView = (props) => {
@@ -42,7 +41,10 @@ const DateView = (props) => {
 }
 
 DateView.propTypes = {
-
+  date: PropTypes.string.isRequired,
+  isFetchingVods: PropTypes.bool,
+  onDatePartClick: PropTypes.func.isRequired,
+  vods: PropTypes.array
 }
 
 export default DateView;

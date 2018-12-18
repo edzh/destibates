@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class Timestamp extends React.Component {
   constructor(props) {
@@ -42,6 +42,14 @@ class Timestamp extends React.Component {
       </div>
     );
   }
+}
+
+Timestamp.propTypes = {
+  currentVod: PropTypes.string,
+  currentTimestamp: PropTypes.string,
+  query: PropTypes.string,
+  onTimestampClick: PropTypes.func.isRequired,
+  timestamp: PropTypes.string.isRequired
 }
 
 export default Timestamp;

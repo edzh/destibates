@@ -3,29 +3,23 @@ import PropTypes from 'prop-types';
 
 import DateView from './Date/DateView';
 import CategoryList from './Category/CategoryList';
-import Refresh from '../Vods/Refresh';
+import Refresh from '../Refresh';
 
-const filters = ['date', 'category'];
+const filters = ['Date', 'Category'];
 
 class Sidebar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
-    const { dispatch, fetchCategories } = this.props;
+    const { fetchCategories } = this.props;
     fetchCategories();
   }
 
   render() {
     const {
       onViewClick,
-      onDateClick,
       onDatePartClick,
       onCategoryClick,
       fetchTimestamps,
       timestamps,
-      fetchVods,
       sidebar,
       categories,
       currentCategory,
@@ -33,31 +27,29 @@ class Sidebar extends React.Component {
       isFetchingVods
     } = this.props
 
-    if (sidebar.view === 'date') {
+    if (sidebar.view === 'Date') {
       return(
         <div>
           <p
-            className="bg-grey-darker p-2 mx-auto text-grey"
+            className="bg-grey-darker p-2 m-1 text-grey text-lg rounded"
             onClick={() => onViewClick('')}
           >
             {sidebar.view}
           </p>
           <DateView
             date={sidebar.date}
-            fetchVods={fetchVods}
             isFetchingVods={isFetchingVods}
             onDatePartClick={onDatePartClick}
-            onDateClick={onDateClick}
             vods={vods}
           />
         </div>
       );
     }
-    if (sidebar.view === 'category') {
+    if (sidebar.view === 'Category') {
       return(
         <div>
           <p
-            className="bg-grey-darker p-2 text-grey"
+            className="bg-grey-darker p-2 m-1 text-grey text-lg rounded"
             onClick={() => onViewClick('')}
           >
             {sidebar.view}
@@ -77,7 +69,7 @@ class Sidebar extends React.Component {
         {filters.map(filter =>
           <p
             key={filter}
-            className="bg-grey-darker p-2 text-grey"
+            className="bg-grey-darker p-2 text-grey text-lg m-1 rounded"
             onClick={() => onViewClick(filter)}
           >
             {filter}

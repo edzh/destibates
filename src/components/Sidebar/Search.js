@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import Timestamp from './Timestamp'
 // import TimestampList from '../../containers/TimestampListContainer';
 import TimestampList from './TimestampList';
 
@@ -44,7 +43,7 @@ class Search extends Component {
   }
 
   render() {
-    const { query, loading } = this.state;
+    const { query } = this.state;
 
     const results = this.handleSearch(query);
 

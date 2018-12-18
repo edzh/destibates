@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import AuthService from './Auth/AuthService';
-import { users } from '../config/api'
+// import { users } from '../config/api'
 import { withRouter } from 'react-router';
 
 const Auth = new AuthService();

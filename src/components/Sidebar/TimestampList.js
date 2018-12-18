@@ -3,10 +3,6 @@ import Timestamp from '../../containers/TimestampContainer';
 
 
 class TimestampList extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { timestamps, query } = this.props;
 

@@ -69,7 +69,7 @@ class DayList extends React.Component {
   }
 
   render() {
-    const { onDateClick, onDatePartClick, date, vods } = this.props
+    const { vods } = this.props
     const { vodsByDay } = this.state;
 
     return (
@@ -98,7 +98,7 @@ class DayList extends React.Component {
 }
 
 DayList.propTypes = {
-
+  vods: PropTypes.array.isRequired,
 }
 
 export default DayList;
