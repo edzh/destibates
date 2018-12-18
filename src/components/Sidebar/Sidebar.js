@@ -17,6 +17,7 @@ class Sidebar extends React.Component {
     const {
       onViewClick,
       onDatePartClick,
+      onDateClick,
       onCategoryClick,
       fetchTimestamps,
       timestamps,
@@ -24,7 +25,8 @@ class Sidebar extends React.Component {
       categories,
       currentCategory,
       vods,
-      isFetchingVods
+      isFetchingVods,
+      fetchVods
     } = this.props
 
     if (sidebar.view === 'Date') {
@@ -38,6 +40,8 @@ class Sidebar extends React.Component {
           </p>
           <DateView
             date={sidebar.date}
+            onDateClick={onDateClick}
+            fetchVods={fetchVods}
             isFetchingVods={isFetchingVods}
             onDatePartClick={onDatePartClick}
             vods={vods}
