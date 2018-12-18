@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { vods } from '../config/api';
-import { TwitchAPIKey } from '../config';
+// import { TwitchAPIKey } from '../config/index.js';
 import AuthService from './Auth/AuthService';
 
 const Auth = new AuthService();
@@ -30,7 +30,8 @@ class Refresh extends Component {
     fetch(videos, {
       method: 'get',
       headers: {
-        'Client-ID': TwitchAPIKey
+        // 'Client-ID': TwitchAPIKey
+        'Client-ID': process.env.Twitch_API_KEY
       }
     })
       .then(response => response.json())
