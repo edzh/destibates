@@ -22,7 +22,7 @@ const MonthList = ({ onDateClick, onDatePartClick, fetchVods }) => {
       <ul className="list-reset bg-black">
       { months.map(month =>
         <li
-          className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0"
+          className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0 cursor-pointer"
           key={month}
           onClick={() => {
             fetchVods('month', 12 - parseInt(months.indexOf(month)));

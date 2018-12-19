@@ -81,7 +81,7 @@ class DayList extends React.Component {
             key={day}
           >
             <div className="w-full">
-              <div className="ml-2 flex" onClick={() => this.handleClick(day)}>
+              <div className="ml-2 flex cursor-pointer" onClick={() => this.handleClick(day)}>
                 <p className="w-4 mr-3 text-right">{vodsByDay[day].day}</p>
                 <p>{weekdays[vodsByDay[day].weekday]}</p>
                 <p className="ml-auto text-xs"><span className="text-grey-lightest">{vodsByDay[day].vods.length}</span> VODs</p>

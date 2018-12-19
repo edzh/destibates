@@ -12,7 +12,7 @@ return(
         ? onVodClick('')
         : onVodClick(vod.vodId);
       }}
-      className={`flex rounded ${currentVod === vod.vodId ? 'bg-grey-darker' : 'bg-grey-darkest'} text-grey-light py-1 mx-2 mb-0 mt-2`}>
+      className={`flex rounded cursor-pointer ${currentVod === vod.vodId ? 'bg-grey-darker' : 'bg-grey-darkest'} text-grey-light py-1 mx-2 mb-0 mt-2`}>
       <p className="ml-auto">
         { moment(vod.date).format('LT') }
       </p>

@@ -16,7 +16,7 @@ class App extends React.Component {
               <div className="bg-black w-full">
                 <Player />
               </div>
-              <div style={{width: "384px"}} className="overflow-auto h-screen" >
+              <div style={{width: "384px", height:"768px"}} className="overflow-auto" >
                 <Sidebar />
               </div>
             </div>

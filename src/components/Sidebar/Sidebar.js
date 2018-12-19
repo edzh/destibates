@@ -33,7 +33,7 @@ class Sidebar extends React.Component {
       return(
         <div>
           <p
-            className="bg-grey-darker p-2 m-1 text-grey text-lg rounded"
+            className="bg-grey-darker p-2 m-1 text-grey text-lg rounded cursor-pointer"
             onClick={() => onViewClick('')}
           >
             {sidebar.view}
@@ -53,7 +53,7 @@ class Sidebar extends React.Component {
       return(
         <div>
           <p
-            className="bg-grey-darker p-2 m-1 text-grey text-lg rounded"
+            className="bg-grey-darker p-2 m-1 text-grey text-lg rounded cursor-pointer"
             onClick={() => onViewClick('')}
           >
             {sidebar.view}
@@ -73,19 +73,19 @@ class Sidebar extends React.Component {
         {filters.map(filter =>
           <p
             key={filter}
-            className="bg-grey-darker p-2 text-grey text-lg m-1 rounded"
+            className="bg-grey-darker p-2 text-grey text-lg m-1 rounded cursor-pointer"
             onClick={() => onViewClick(filter)}
           >
             {filter}
           </p>
         )}
-        <Refresh vods={vods}/>
       </div>
     );
 
   }
 }
 
+        // <Refresh vods={vods}/>
 
 
 

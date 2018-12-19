@@ -9,7 +9,7 @@ const YearList = ({ onDateClick, onDatePartClick }) => {
       <ul className="list-reset">
       { years.map(year =>
         <li
-          className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0"
+          className="py-2 text-grey-light border border-grey-darker border-t-0 border-l-0 border-r-0 cursor-pointer"
           key={year}
           onClick={() => {
             onDateClick('year', year);

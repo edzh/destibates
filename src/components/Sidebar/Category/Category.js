@@ -4,7 +4,7 @@ import TimestampList from '../../../containers/TimestampListContainer';
 
 const Category = ({onCategoryClick, currentCategory, categories, category, fetchTimestamps, timestamps}) =>
   <li
-    className="border border-grey-darker border-t-0 border-l-0 border-r-0 py-2"
+    className="border border-grey-darker border-t-0 border-l-0 border-r-0 py-2 cursor-pointer"
     key={category}
   >
     <div onClick={() => {

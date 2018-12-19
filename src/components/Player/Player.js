@@ -12,7 +12,7 @@ class Player extends Component {
           {(this.props.timestamp ? timestamp : vodId) && <TwitchPlayer
               vodId={vodId}
               width={"100%"}
-              height={"960px"}
+              height={"768px"}
               timestamp={timestamp}
               timestampId={this.props.timestamp}
             />
