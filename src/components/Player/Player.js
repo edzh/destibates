@@ -25,6 +25,10 @@ class Player extends Component {
           console.log(timestamp[0])
         })
         .then(() => this.setState({loading: false}))
+        .catch(err => {
+          this.setState({loading: false})
+          console.log(err)
+        })
     }
   }
 

@@ -28,7 +28,7 @@ class Timestamp extends React.Component {
     const { _id, vodId, category, topic } = timestamp;
 
     return(
-      <NavLink to={_id} >
+      <NavLink to={_id} className="no-underline">
         <div
           onClick={() => onTimestampClick(vodId, timestamp.timestamp)}
           className={`px-2 py-2 mt-2 mx-2 cursor-pointer hover:text-white ${currentTimestamp === timestamp.timestamp && currentVod === vodId? 'bg-grey-darkest' : 'bg-black'} text-grey border border-grey-darkest rounded`}>
