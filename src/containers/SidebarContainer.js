@@ -11,7 +11,7 @@ import {
 
 import Sidebar from '../components/Sidebar/Sidebar';
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state, ownProps) => {
   return {
     sidebar: state.sidebar,
     categories: state.sidebar.categories,
@@ -19,7 +19,7 @@ const mapStateToProps = (state) => {
     vods: state.sidebar.vods.items,
     date: state.sidebar.date,
     timestamps: state.sidebar.timestamps.items,
-    currentCategory: state.sidebar.category
+    currentCategory: state.sidebar.category,
   }
 }
 

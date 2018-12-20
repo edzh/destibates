@@ -11,10 +11,10 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="font-sans">
           <Navbar />
-          <Route exact path={'/'} render={() =>
+          <Route exact path={'/:timestampId?'} render={({ match }) =>
             <div className="flex">
               <div className="bg-black w-full">
-                <Player />
+                <Player timestampId={match.params.timestampId} />
               </div>
               <div style={{width: "384px", height:"768px"}} className="overflow-auto" >
                 <Sidebar />

@@ -11,6 +11,7 @@ class Sidebar extends React.Component {
   componentDidMount() {
     const { fetchCategories } = this.props;
     fetchCategories();
+
   }
 
   render() {
