@@ -7,7 +7,7 @@ import {
   fetchCategories,
   fetchTimestamps,
   fetchVods
-} from '../actions';
+} from '../redux/modules/sidebar/sidebar.actions';
 
 import Sidebar from '../components/Sidebar/Sidebar';
 

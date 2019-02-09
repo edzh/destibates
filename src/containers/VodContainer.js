@@ -1,10 +1,6 @@
 import { connect } from 'react-redux';
 
-import {
-  fetchTimestamps,
-  setTimestampsByVod,
-  setSidebarVod
-} from '../actions'
+import { fetchTimestamps, setTimestampsByVod, setSidebarVod } from '../redux/modules/sidebar/sidebar.actions';
 
 import VodList from '../components/Sidebar/VodList';
 

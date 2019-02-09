@@ -1,10 +1,7 @@
 import { connect } from 'react-redux';
 
-import {
-  setVod,
-  setTimestamp
-} from '../actions';
-
+import { setTimestamp } from '../redux/modules/timestamp/timestamp.actions';
+import { setVod } from '../redux/modules/vod/vod.actions';
 import Player from '../components/Player/Player';
 
 const mapStateToProps = (state, ownProps) => {

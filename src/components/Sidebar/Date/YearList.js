@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const years = [ '2018' ]
+const years = [ '2018', '2019' ]
 
 const YearList = ({ onDateClick, onDatePartClick }) => {
   return(

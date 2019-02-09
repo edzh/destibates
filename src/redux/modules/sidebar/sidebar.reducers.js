@@ -1,43 +1,37 @@
-import { combineReducers } from 'redux'
+// import { initialState } from './reducers';
 import {
   SET_SIDEBAR_VIEW,
   SET_SIDEBAR_DATE,
   SET_SIDEBAR_DATE_PART,
   SET_SIDEBAR_CATEGORY,
-  SET_SIDEBAR_VOD,
-  REQUEST_CATEGORIES,
-  RECEIVE_CATEGORIES,
   REQUEST_VODS,
   RECEIVE_VODS,
-  SET_VOD,
+  REQUEST_CATEGORIES,
+  RECEIVE_CATEGORIES,
   REQUEST_TIMESTAMPS,
   RECEIVE_TIMESTAMPS,
-  SET_TIMESTAMP,
-  SET_TIMESTAMPS_BY_VOD
-} from '../actions';
+  SET_TIMESTAMPS_BY_VOD,
+  SET_SIDEBAR_VOD
+} from './sidebar.actions';
 
-const initialState = {
-  sidebar: {
-    view: 'date',
-    category: '',
-    date: {
-      currentPart: 'year',
-      year: '2018',
-      month: '',
-      day: '',
-    },
-    vods: [],
-    timestamps: [],
-    categories: {
-      isFetching: false,
-      items: []
-    }
+export const initialState = {
+  view: 'date',
+  category: '',
+  date: {
+    currentPart: '',
+    year: '',
+    month: '',
+    day: '',
   },
-  vod: '',
-  timestamp: '',
+  vods: [],
+  timestamps: [],
+  categories: {
+    isFetching: false,
+    items: []
+  }
 }
 
-function sidebar(state = initialState.sidebar, action) {
+export default function sidebar(state = initialState, action) {
   switch (action.type) {
     case SET_SIDEBAR_VIEW:
       return { ...state, view: action.view }
@@ -122,28 +116,3 @@ function vods(state = { isFetching: false, items: []}, action) {
   }
 }
 
-function vod(state = initialState.vod, action) {
-  switch (action.type) {
-    case SET_VOD:
-      return action.vod
-    default:
-      return state
-  }
-}
-
-function timestamp(state = initialState.timestamp, action) {
-  switch (action.type) {
-    case SET_TIMESTAMP:
-      return action.timestamp
-    default:
-      return state
-  }
-}
-
-const vodApp = combineReducers({
-  sidebar,
-  vod,
-  timestamp
-})
-
-export default vodApp;

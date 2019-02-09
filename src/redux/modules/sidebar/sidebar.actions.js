@@ -1,7 +1,6 @@
 import fetch from 'cross-fetch';
 
 const url = "https://vodstiny.herokuapp.com/api"
-// const url = "http://localhost:8080/api"
 
 export const SET_SIDEBAR_VIEW = 'SET_SIDEBAR_VIEW';
 export function setSidebarView(view) {
@@ -135,27 +134,10 @@ export function fetchVods(filter, value) {
   }
 }
 
-export const SET_VOD = 'SET_VOD'
-export function setVod(vod) {
-  return {
-    type: SET_VOD,
-    vod
-  }
-}
-
 export const SET_SIDEBAR_VOD = 'SET_SIDEBAR_VOD';
 export function setSidebarVod(vod) {
   return {
     type: SET_SIDEBAR_VOD,
     vod
-  }
-}
-
-
-export const SET_TIMESTAMP = 'SET_TIMESTAMP'
-export function setTimestamp(timestamp) {
-  return {
-    type: SET_TIMESTAMP,
-    timestamp
   }
 }

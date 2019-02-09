@@ -80,13 +80,13 @@ class Sidebar extends React.Component {
             {filter}
           </p>
         )}
+        {<Refresh vods={vods}/>}
       </div>
     );
 
   }
 }
 
-        // <Refresh vods={vods}/>
 
 
 

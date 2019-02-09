@@ -9,7 +9,8 @@ class Player extends Component {
     super(props)
 
     this.state = {
-      loading: false
+      loading: false,
+      err: ''
     }
   }
 
@@ -26,8 +27,7 @@ class Player extends Component {
         })
         .then(() => this.setState({loading: false}))
         .catch(err => {
-          this.setState({loading: false})
-          console.log(err)
+          this.setState({loading: false, err})
         })
     }
   }
@@ -36,17 +36,15 @@ class Player extends Component {
     const { vodId, timestamp } = this.props;
 
     return (
-      <div className="flex" >
-        <div className="w-full h-full">
-          {!this.state.loading && (timestamp ? timestamp : vodId) && <TwitchPlayer
-              vodId={vodId}
-              width={"100%"}
-              height={"768px"}
-              timestamp={timestamp}
-              timestampId={this.props.timestamp}
-            />
-          }
-        </div>
+      <div className="w-full h-full flex">
+        {!this.state.loading && (timestamp ? timestamp : vodId) && <TwitchPlayer
+            vodId={vodId}
+            width={"100%"}
+            height={"768px"}
+            timestamp={timestamp}
+            timestampId={this.props.timestamp}
+          />
+        }
       </div>
     )
   }

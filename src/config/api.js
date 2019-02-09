@@ -3,6 +3,7 @@ const Auth = new AuthService();
 
 // const url = process.env.REACT_APP_API_URL;
 const url = 'https://vodstiny.herokuapp.com/'
+// const url =  'http://localhost:8080/'
 
 export const vods = `${url}api/vods`
 export const timestamps = `${url}api/timestamps`
